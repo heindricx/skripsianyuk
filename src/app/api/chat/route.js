@@ -8,7 +8,7 @@ export async function POST(req) {
     const { messages, contextData } = await req.json();
     const latestMessage = messages[messages.length - 1].content;
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
     const prompt = `Anda adalah asisten AI akademik yang membantu mahasiswa mencari ide dan topik skripsi. 
 Anda memiliki akses ke database judul skripsi sebagai referensi. 
