@@ -1,0 +1,20 @@
+- `[x]` 1. Inisialisasi Proyek Next.js
+  - `[x]` Jalankan npx create-next-app
+  - `[x]` Install dependensi (Prisma, @google/generative-ai)
+- `[x]` 2. Konfigurasi Database & ORM (Prisma + TiDB)
+  - `[x]` Inisialisasi Prisma
+  - `[x]` Buat skema database
+  - `[x]` Push skema ke TiDB
+- `[x]` 3. Script Parsing Data (`seeder`)
+  - `[x]` Buat script `seed.js`
+  - `[x]` Jalankan parsing ke database TiDB
+- `[x]` 4. Pembuatan UI / Komponen Web
+  - `[x]` Buat desain sistem (`globals.css`)
+  - `[x]` Buat `ThesisTable` dengan fitur filter
+  - `[x]` Buat UI Chatbot
+- `[x]` 5. Integrasi API Gemini
+  - `[x]` Buat endpoint `/api/chat`
+  - `[x]` Hubungkan UI chatbot dengan API
+- `[x]` 6. Verifikasi & Deployment
+  - `[x]` Uji coba aplikasi lokal
+  - `[x]` Instruksi deployment Vercel

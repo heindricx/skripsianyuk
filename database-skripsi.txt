@@ -1,0 +1,639 @@
+  Angelin, Indry  (2021) PENGGUNAAN METODE REGRESI AKAR LATEN ROBUST PADA DATA YANG MENGANDUNG MULTIKOLINEARITAS DAN OUTLIER = USE OF ROBUST LATENT ROOT REGRESSION METHODS IN DATA CONTAINING MULTICOLINEARITY AND OUTLIER.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Annisa, Nurul  (2021) Perbandingan Efektivitas Peta Kendali Decision On Belief dan Peta kendali p Pada Pengendalian Kualitas Produk = Comparison of Effectiveness of Decision On Belief Control Chart and p Control Chart on Product Quality Control.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fitri, Fitri  (2021) Analisis Data Panel dengan Model Regresi Logistik Biner = Panel data analysis with binary logistic regression model.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fitriani, Andi Riska  (2021) ANALISIS NILAI RISIKO PADA INDEKS HARGA SAHAM GABUNGAN MENGGUNAKAN METODE INTEGRATED GENERALIZED AUTOREGRESSIVE CONDITIONAL HETEROSKEDASTICITY (IGARCH) = RISK VALUE ANALYSIS ON THE COMBINED SHARE PRICE INDEX USING INTEGRATED GENERALIZED AUTOREGRESSIVE CONDITIONAL HETEROSCEDASTICITY (IGARCH ) METHOD.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Halniati, Halniati  (2021) PERFORMA PETA KENDALI AUTOREGRESSIVE INTEGRATED MOVING AVERAGE (Studi Kasus: Produk Penjualan Hijab Tahun 2015-2019) = AUTOREGRESSIVE INTEGRATED MOVING AVERAGE CONTROL MAP PERFORMANCE (Case Study: Hijab Sales Products in 2015-2019).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Musdalifah, Musdalifah  (2021) PEMODELAN ANALISIS KOMPONEN UTAMA REGRESI TERBOBOTI SECARA GEOGRAFIS UNTUK DATA YANG MENGALAMI MULTIKOLINEARITAS = MODELING THE PRINCIPAL COMPONENT ANALYSIS OF GEOGRAPHICALLY WEIGHTED REGRESSION FOR DATA EXPERIENCING MULTICOLINEARITY.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sudarmin, Mar'atul Wildani  (2021) PENGUJIAN HIPOTESIS MODEL REGRESI NONPARAMETRIK SPLINE TRUNCATED DALAM PEMODELAN TINGKAT PENGANGGURAN TERBUKA DI SULAWESI SELATAN.  Skripsi thesis, UNIVERSITAS HASANUDDIN.   
+
+  Sultan, Sultan  (2021) Estimasi Parameter Fungsi Intensitas Bersyarat Model Point Process dan Aplikasinya Pada Data Gempa Bumi = Estimation of Parameters Function of Conditional Intensity Model Point Process and Its Application to Earthquake Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Wahyuni, Nurul  (2021) Estimasi Model Regresi Nonparametrik Poisson Diperumum Menggunakan Estimator Spline Truncated = Estimation Of Generalized Poisson Nonparametric Regression Model Using The Truncated Spline Estimator.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Abubakar, Ardiansyah  (2022) Monitoring Mean Process pada Kualitas Air PDAM Tirta Jeneberang dengan Menggunakan Bagan Kendali MEWMA dan MCUSUM = Monitoring the Mean Process on the Water Quality of PDAM Tirta Jeneberang by Using the MEWMA and MCUSUM Control Charts.  Thesis thesis, Universitas Hasanuddin.   
+
+  Ahmad, Nur Aminah  (2022) Pemodelan Regresi Data Panel Dinamis dengan Pendekatan Generalized Method of Moment Arellano-Bond dan Blundell-Bond pada Data Pertumbuhan Ekonomi = Dynamic Panel Data Regression Model With Generalized Method of Moment Arellano-Bond and Blundell-Bond Approach Economic Growth Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  Aicha, Andi Ummi Melin  (2022) PEMODELAN GEOGRAPHICALLY WEIGHTED ZERO INFLATED POISSON REGRESSION PADA KASUS KEMATIAN DEMAM BERDARAH DENGUEDI SULAWESI SELATAN.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ainun, Ainun  (2022) Performa Bagan Kendali Nonparametrik Exponentially Weighted Moving Average Sign pada Produksi Pakan Ternak.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Aisyah, Siti  (2022) KINERJA MODEL EXPONENTIAL DAN INTEGRATED GARCH PADA ANALISIS VALUE AT RISK ( Studi Kasus : Indeks Harga Saham Gabungan Pada Masa Sebelum dan Selama Pandemi Di Indonesia).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Al-anshory, Fadhil  (2022) Aplikasi Metode Improved Chi Square Automatic Interaction Detection dengan Koreksi Bias pada Ketidaklanjutan Siswa ke SM/Sederajat.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Anwar, Chairil  (2022) Pemodelan Geographically Weighted LASSO Untuk Data Yang Mengandung Multikolinieritas.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Arda, Naura Alfatiyya  (2022) Penggunaan Metode Regresi Kuantil Komponen Utama pada Data Angka Kematian Bayi di Provinsi Sulawesi Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ariansyah, Muh. Anugrah  (2022) Penggunaan Metode Robust Scale Untuk Mengatasi Outlier Pada Rancangan Acak Lengkap Tiga Faktor.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ashwad K., Hajratul  (2022) ESTIMASI INDEKS HARGA SAHAM GABUNGAN BERDASARKAN MODEL REGRESI KUANTIL SPLINE SMOOTHING.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Dzulhijjah, Nur Aprilia  (2022) Pemodelan Semiparametrik dengan Koefisien Bervariasi pada Data Longitudinal Menggunakan Penaksir B-Spline.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Emi Astuti, Emi Astuti  (2022) ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI INVESTASI ASING LANGSUNG DI INDONESIA TAHUN 1990 – 2020 MENGGUNAKAN ERROR CORRECTION MODEL.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Evryan, Fiska  (2022) Peta Kendali c Berdasarkan Metode Modifikasi Transformasi Akar Kuadrat Dalam Pengendalian Kualitas Hasil Produksi Sepatu.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fahira, Fani  (2022) PENERAPAN MODEL REGRESI LOGISTIK LEAST ABSOLUTE SHRINKAGE AND SELECTION OPERATOR PADA CREDIT SCORING = APPLICATION OF THE LEAST ABSOLUTE SHRINKAGE AND SELECTION OPERATOR LOGISTICS MODEL IN CREDIT SCORING.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fernando, Hafis Dwi  (2022) Analisis Rantai Markov Terboboti untuk Memprediksi Nilai Ekspor Nonmigas Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hadijah, Hadijah  (2022) ESTIMASI INTERVAL KEPERCAYAAN PARAMETER REGRESI DALAM MODEL PENALIZED KUANTIL SPLINE PADA PASIEN DEMAM BERDARAH DENGUE.  Thesis thesis, Universitas Hasanuddin.   
+
+  Halis, Ilham  (2022) Perbandingan Hasil Peramalan Dengan Metode Fuzzy Time Series Chen Orde Tinggi Dengan Metode Fuzzy Time Series Saxena-Easo¬ Pada Data Inflasi Di Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hi Armin, Noormanto  (2022) Penerapan Estimator Priestley-Chao dengan Fungsi Kernel Gaussian pada Data Indeks Harga Saham Gabungan = Application of Priestley-Chao Estimator with Gaussian Kernel Function to Composite Stock Price Index Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hidayat, Muh. Nurul  (2022) Kinerja Peta kendali Triple Exponentially Weighted Moving Average untuk Mengontrol Rata-rata Proses.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Jannah, Miftahul  (2022) Analisis Data Longitudinal dengan Korelasi Kanonik Multivariat.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Junus, Fakhriyyah Dj  (2022) ESTIMASI PARAMETER MODEL MIXED GEOGRAPHICALLY WEIGHTED REGRESSION MENGGUNAKAN METODE GENERALIZED M-ESTIMATOR.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Kuswanto, Hedi  (2022) MODEL MULTILEVEL SPLINE LINEAR TRUNCATED DALAM REGRESI NONPARAMETRIK MENGGUNAKAN METODE RESTRICTED MAXIMUM LIKELIHOOD = MULTILEVEL SPLINE LINEAR TRUNCATED MODEL IN NONPARAMETRIK REGRESSION USING THE METHOD RESTRICTED MAXIMUM LIKELIHOOD.  Thesis thesis, Universitas Hasanuddin.   
+
+  Latif, Rifka Yulia Sari Ifadah  (2022) ESTIMASI DAN PERAMALAN JUMLAH KASUS COVID-19 DI SULAWESI SELATAN PADA DATA GOOGLE TRENDS DAN GOOGLE MOBILITY MENGGUNAKAN MODEL ADITIF UMUM = ESTIMATING DAN FORECASTING COVID-19 CASES IN SOUTH SULAWESI BY DATA OF GOOGLE TRENDS AND GOOGLE MOBILITY USING GENERAL ADDITIVE MODEL.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Lia, Nur  (2022) Estimasi Model Regresi Nonparametrik Menggunakan Estimator Nadaraya-Watson dengan Fungsi Kernel Epanechnikov.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Liman, Victor  (2022) Penerapan Metode Copula Archimedean dalam Analisis Value at Risk dan Backtesting pada Portofolio Saham.  Skripsi thesis, Universitas Hasanuddin.   
+
+  MUSAFIRAH, MUSAFIRAH  (2022) ESTIMASI MODEL REGRESI PENALIZED SPLINE MELALUI ESTIMATOR ROBUST M DAN S (STUDI KASUS: TINGKAT PENJUALAN EMAS LOGAM MULIA DAN TABUNGAN EMAS SELAMA PANDEMI COVID 19) = ESTIMATION OF PENALIZED SPLINE REGRESSION MODELS WITH ROBUST ESTIMATOR M AND S (CASE STUDY: PRECIOUS METAL GOLD SALES AND GOLD SAVINGS RATES DURING THE COVID 19 PANDEMIC).  Thesis thesis, Universitas Hasanuddin.   
+
+  Mattaliu, Shafwan Pratama  (2022) ESTIMASI PARAMETER MODEL DATA PANEL DINAMIS MENGGUNAKAN METODE MOMEN ARELLANO BOND YANG DIPERUMUM = DYNAMIC PANEL DATA MODEL PARAMETER ESTIMATION USING GENERALIZED ARELLANO BOND MOMENT METHOD.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mirna, Mirna  (2022) INTERPOLASI SPASIAL ORDINARY COKRIGING DENGAN SEMIVARIOGRAM ANISOTROPI GEOMETRIS.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Muh. Akil, Muh. Akil  (2022) PENERAPAN REGRESI PANEL DINAMIS DENGAN PENDEKATAN GENERALIZED METHOD OF MOMENT BLUNDELL BOND PADA DATA PERTUMBUHAN EKONOMI DI SULAWESI SELATAN.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mulyani, Sri  (2022) PERBANDINGAN KINERJA METODE MESIN VEKTOR PENDUKUNG TANPA DAN DENGAN FITUR BERBASIS LEKSIKON PADA ANALISIS SENTIMEN VAKSINASI COVID-19 DI INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nasruddin, Fadlyansyah Noer  (2022) Penggunaan Peta Kendali Poisson Exponentially Weighted Moving Average Berdasarkan Metode Improved Square Root Transformation pada Data Kecelakaan Lalu Lintas di Kota Makassar Tahun 2011–2021.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nova, Nova  (2022) Pemodelan Jumlah Kematian Ibu dan Bayi di Provinsi Sulawesi Selatan Menggunakan Bivariate Generalized Poisson Regression.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nuralyatussa`ada, Nuralyatussa`ada  (2022) Analisis Regresi Data Panel Dengan Model Efek Umum, Model Efek Tetap Dan Model Efek Acak (tudi Kasus: Inflasi Dan Indeks Pembangunan Manusia)=Panel Data Regression Analysis With General Effect Model, Fixed Effect Model And Random Effect Model (Case Study: Inflation And Human Development Index).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nurhidaya L., Nurhidaya L.  (2022) Pemodelan Regresi Binomial Negatif Bivariat pada Data yang Mengalami Overdispersi = Modeling Bivariate Negative Binomial Regression on Overdispersed Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nurul Ichzza, Fahira  (2022) PENERAPAN ANALISIS KOMPONEN UTAMA PADA ALGORITMA LONG SHORT TERM MEMORY UNTUK PREDIKSI HARGA SAHAM.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Oktoni, Sakinah  (2022) Pemodelan Data Longitudinal Multikolinearitas dengan Principal Component Analysis.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Patandianan, Restuyani  (2022) Perbandingan Akurasi Peramalan Jumlah Penumpang Pesawat Bandar Udara Internasional Sultan Hasanuddin Menggunakan Metode Fuzzy Time Series Chen dan Metode Fuzzy Time Series Singh.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Permataliyanti, Hana Meisaria Retno  (2022) Penerapan Fuzzy Inference System dengan Metode Tsukamoto untuk Memprediksi Curah Hujan di Kabupaten Maros.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Prananda Rs, Adhiyaksa  (2022) PERBANDINGAN KINERJA METODE GENETIC ALGORITHM K-NEAREST NEIGHBOR DENGAN LEARNING VECTOR QUANTIZATION PADA KLASIFIKASI PENERIMA VAKSINASI DI PUSKESMAS PARUMPANAI KABUPATEN LUWU TIMUR.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Randa, Trigarcia Maleachi  (2022) Perbandingan Estimasi LASSO Dan LASSO Least Trimmed Squares Untuk Menganalisis Data Dimensi Besar (Studi Kasus: Faktor-Faktor Yang Mempengaruhi Penyebaran Penyakit Tuberkulosis Di Sulawesi Selatan) = Comparison of LASSO and LASSO Least Trimmed Squares Estimation to Analyze High Dimensional Data (Case Study: Factors Affecting the Spread of Tuberculosis in South Sulawesi).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rezki, Nurul  (2022) ANALISIS SENTIMEN KEBIJAKAN MERDEKA BELAJAR KAMPUS MERDEKA MENGGUNAKAN MESIN VEKTOR PENDUKUNG DENGAN EKSTRAKSI FITUR WORD2VEC DAN PEMODELAN TOPIK LATENT DIRICHLET ALLOCATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Riskayani, Riskayani  (2022) ESTIMASI CONDITIONAL VALUE AT RISK DENGAN METODE COPULA ALI-MIKHAIL-HAQ MENGGUNAKAN KORELASI KENDALL'S TAU = ESTIMATION OF CONDITIONAL VALUE AT RISK WITH COPULA ALI-MIKHAIL-HAQ METHOD USING KENDALL'S TAU CORRELATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Riyantie, Eva  (2022) Pemodelan regresi Conway Maxwell Poisson untuk mengatasi pelanggaran equidispersi pada regresi Poisson.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Roihanah S, Reni  (2022) Estimasi Nilai Conditional Value At Risk Pada Harga Penutupan Saham Harian PT. Indosat Tbk dan PT. Smartfren Telecom Tbk dengan Metode Copula Joe.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rombe, Yoris  (2022) PENGGUNAAN METODE XGBOOST UNTUK KLASIFIKASI STATUS OBESITAS DI INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sakinah, A. Annisa Miftahul  (2022) ESTIMASI MODEL REGRESI LOGISTIK BINER NONPARAMETRIK DENGAN PENAKSIR LOKAL LINIER DALAM MENGANALISIS FAKTOR PENYEBAB PENDING KLAIM BPJS KESEHATAN.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Saputra, Firman  (2022) MODEL REGRESI LOGISTIK ORDINAL MULTILEVEL PADA TINGKAT PREDIKAT KELULUSAN MAHASISWA (Studi Kasus : Perguruan Tinggi di Kota Baubau) = MULTILEVEL ORDINAL LOGISTIC REGRESSION MODEL ON STUDENTS GRADUATION PREDICATE LEVEL (Case Study: Universities in Baubau City).  Thesis thesis, Universitas Hasanuddin.   
+
+  Sarina, Sarina and Sunusi, Nurtiti and Herdiani, Erna Tri  (2022) An Estimator For Simultaneous Equation Model Using Two Stage Ridge Method (Case Study On Farmer Exchange Rate Data In Indonesia).  IJRP.ORG, 106-1.  pp. 1-11.      
+
+  Tangdilomban, Claudian Tikulimbong  (2022) PENERAPAN MODEL EXPONENTIAL GENERALIZED AUTOREGRESSIVE CONDITIONAL HETEROSCEDASTICITY PADA PERAMALAN DATA SAHAM BLUE CHIP DI INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Utami, Isra` Rizka  (2022) PERBANDINGAN KINERJA BAGAN KENDALI MULTIVARIATE EXPONENTIALLY WEIGHTED MOVING VARIANCE DAN MULTIVARIATE EXPONENTIALLY WEIGHTED MEAN SQUARED DEVIATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Yustika, Yustika  (2022) PEMODELAN PERTUMBUHAN EKONOMI DENGAN METODE TWO STAGE LEAST SQUARE GENERALIZED METHOD OF MOMENT ARELLANO-BOND.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Yusuf, Nur Anugrah  (2022) ESTIMASI MODEL REGRESI SPLINE BIRESPON DENGAN FUNGSI PENALTY (APLIKASI PADA DATA INDEKS HARGA SAHAM GABUNGAN DAN JAKARTA ISLAMIC INDEX).  Skripsi thesis, Universitas Hasanuddin.   
+
+ 
+ Abdullah, Sriulan S.s.  (2023) Penggunaan Metode Improved Square Root Transformation pada Pembentukan Peta Kendali Binomial Exponentially Weighted Moving Average.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Adhel, Fadilah Amirul  (2023) ANALISIS SENTIMEN KEBENCANAAN DI INDONESIA MENGGUNAKAN SUPPORT VECTOR MACHINE BERBASIS FASTTEXT DENGAN PARAMETER OPTIMASI FIREFLY = ANALYSIS OF DISASTER SENTIMENT IN INDONESIA USING FASTTEXT-BASED SUPPORT VECTOR MACHINE WITH FIREFLY OPTIMIZATION PARAMETERS.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Akbar, Taufiq  (2023) Perbandingan Kinerja K-Medoids dan Density Based Spatial Clustering of Application with Noise Menggunakan Uji Silhouette Coefficient.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Amni, Wa Ode Sitti  (2023) PEMODELAN ANALISIS KOMPONEN UTAMA ROBUST MENGGUNAKAN METODE MINIMUM COVARIAN DETERMINANT-LEAST TRIMMED SQUARE PADA DATA PRODUK DOMESTIK REGIONAL BRUTO.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Arifin, Samsul  (2023) Pemodelan Regresi Logistik Ordinal dengan Estimator Spline Truncated = Ordinal Logistic Regression Modeling with Truncated Spline Estimator.  Thesis thesis, Universitas Hasanuddin.   
+
+  Asmawi, Zulfa Putri  (2023) Pemodelan Indeks Saham LQ45 Dengan Fungsi Kernel Triweight Dan Epanechikov Menggunakan Bandwidth Generalized Cross Validation = LQ45 Stock Index Modeling With Kernel Triweight and Epanechikov Functions Using Bandwidth Generalized Cross Validation.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Bahri, Muhammad Syamsul  (2023) PERBANDINGAN KINERJA SUPPORT VECTOR MACHINE DENGAN OPTIMASI PARTICLE SWARM DAN BAYESIAN PADA ANALISIS SENTIMEN KEBENCANAAN DI INDONESIA = COMPARISON OF SUPPORT VECTOR MACHINE PERFORMANCE WITH PARTICLE SWARM AND BAYESIAN OPTIMIZATION IN INDONESIA DISASTER SENTIMENT ANALYSIS.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Damayanti, Fitra  (2023) Peta Kendali Mixed Cumulative Sum – Exponentially Weighted Moving Average dalam Pengendalian Proses Produksi Butsudan di PT Maruki International Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ena, Maktisen  (2023) PERBANDINGAN METODE ARTIFICIAL NEURAL NETWORK BACKPROPAGATION DAN GARCH DALAM MEMPREDIKSI HARGA SAHAM ( Studi Kasus : Saham Indosat Tahun 2012 – 2022 ) = COMPARISON OF ARTIFICIAL NEURAL NETWORK BACKPROPAGATION AND GARCH METHODS IN PREDICTING STOCK PRICE (Case Study: Indosat Shares 2012 – 2022 ).  Thesis thesis, Universitas Hasanuddin.   
+
+  Fitrianingsy, A. Eka Hermia  (2023) PEMODELAN REGRESI CONWAY MAXWELL POISSON DAN REGRESI ZERO INFLATED CONWAY MAXWELL POISSON PADA KASUS PENYAKIT DIFTERI TERHADAP MORTALITAS PASIEN DI INDONESIA = MODELING OF CONWAY MAXWELL POISSON REGRESSION AND ZERO INFLATED CONWAY MAXWELL POISSON REGRESSION IN DIPHTHERIA CASES ON PATIENT MORTALITY IN INDONESIA.  Thesis thesis, Universitas Hasanuddin.   
+
+  Hakim, Nur Ukhty  (2023) Analisis Regresi Komponen Utama Robust Dengan Metode Minimum Volume Ellipsoid Pada Data Jumlah Pengangguran di Sulawesi Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Haksar, Haksar  (2023) Penggunaan Seleksi Fitur Query Expansion Ranking dan Genetic Algorithm-Support Vector Machine untuk Analisis Sentimen pada Aplikasi Perbankan Jenius.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Haq, Muhsinil  (2023) METODE KONSTRUKSI SKEMA ASOSIASI RIGHT ANGULAR DAN CIRCULAR PADA RANCANGAN ACAK KELOMPOK TAK LENGKAP SEIMBANG PARSIAL = Construction Methods of Right Angular and Circular Association Schemes in Partially Balanced Incomplete Block Design.  Thesis thesis, Universitas Hasanuddin.   
+
+  Heriansyah, Ihksan  (2023) PENERAPAN SYNTHETIC MINORITY OVERSAMPLING TECHNIQUE PADA SENTIMEN ANALISIS KEBIJAKAN PEMINDAHAN IBUKOTA NEGARA INDONESIA MENGGUNAKAN ALGORITMA NAÏVE BAYES CLASSIFIER = APPLICATION OF SYNTHETIC MINORITY OVERSAMPLING TECHNIQUE IN SENTIMENT ANALYSIS OF THE POLICY OF RELOCATING THE CAPITAL CITY OF INDONESIA USING NAÏVE BAYES CLASSIFIER ALGORITHM.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hermawan, Agus  (2023) Perbandingan Metode Klasifikasi Algoritma Naïve Bayes Tanpa Dan Dengan Kernel Density Estimation (Studi Kasus Data Self Declare BPJPH 2022) = The Comparison of Classification Methods: Naïve Bayes Algorithm without and with Kernel Density Estimation (Case Study: Self-Declared Data BPJPH 2022).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hidayah, Musfira  (2023) Pemodelan Linearized Ridge MM-Estimator Pada Data Angka Kematian Bayi Di Provinsi Sulawesi Setatan Tahun 2020 = Linearized Ridge MM-Estimator Modeling on Infant Mortality Data in South Sulawesi Province in 2020.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hidayat, Taufik  (2023) Penerapan Metode K-Medoids Menggunakan Within Cluster Variaton Dan Gap Statistik Terhadap Data Covid-19 Di Indonesia = Translation to English: Implementation Of K-Medoids Method Using Within-Cluster Variation And Gap Statistics On Covid-19 Data In Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Kaharudin, Kaharudin  (2023) Perbandingan kinerja peta kendali laney p dan peta kendali p dalam mengidentifikasi kerusakan pada data produk cacat = comparison of the perfomance of the laney p control chart and the p control chart in identifying defective product damage data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Kondy, Evlyn Pricilia  (2023) Penerapan Combine Sampling Pada Analisis Sentimen Menggunakan Algoritma K-Nearest Neighbor (Studi Kasus: Sentimen Kebijakan Lepas Masker di Indonesia).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Laode, Melinda Sari Wirya Putri  (2023) Penerapan Regresi Nonparametrik Birespon dengan Penaksir B-Spline pada Data Longitudinal.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Laoris, Nurul Hidayah Magfira  (2023) PENGGUNAAN METODE SINGULAR SPECTRUM ANALYSIS DALAM PERAMALAN JUMLAH KUNJUNGAN WISATAWAN MANCANEGARA KE TAMAN NASIONAL TAKA BONERATE = SINGULAR SPECTRUM ANALYSIS METHOD IN ORDER TO FORECAST THE NUMBER OF FOREIGN TOURIST TO TAKA BONERATE NATIONAL PARK.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Latief, A. Nurhayati  (2023) PEMODELAN REGRESI SPLINE HIERARKI DENGAN METODE GENERALIZED LEAST SQUARE (Studi Kasus : Angka Kematian Ibu Tahun 2020) = MODELLING HIERARCHICAL SPLINE REGRESSION USING THE GENERALIZED LEAST SQUARE METHOD (Case Study: Maternal Mortality Rate 2020).  Thesis thesis, Universitas Hasanuddin.   
+
+  Lestari, Diah  (2023) Pemodelan Geographically Weighted Regression dengan Fungsi Pembobot Kernel pada Data Multikolinearitas = Geographically Weighted Regression Modeling with Kernel Weighting Function on Multicollinearity Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  MUNAWAROH, MUBASIRATUL  (2023) Penerapan Peta Kendali Link Relative Cumulative Sum Dan Link Relative Exponentially Weighted Moving Average Dalam Monitoring Mean Process Produksi Ayam Petelur (Studi Kasus Kandang Latih Ayam Petelur SMKPP N Sembawa, Palembang) = Application of The Link Relative Cumulative Sum And Link Relative Exponentially Weighted Moving Average Control Chart In Monitoring The Mean Process of Laying Hens Production (Case Study of Laying Hens Training Coop at SMKPP N Sembawa, Palembang).  Thesis thesis, Universitas Hasanuddin.   
+
+  Machmud, M. H. Adhyaksa  (2023) Perbandingan Hasil Peramalan Metode Fuzzy Time Series Lee dan Saxena-Easo Pada Data Harga Emas di Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Masa, Mellyana  (2023) Bagan Kendali Menggunakan Metode Nonparametrik Exponentially Weighted Moving Average Wilcoxon Signed Rank Pada Pengendalian Kualitas.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Maukari, Zakarias  (2023) Peramalan Jumlah Konsumsi Bahan Bakar Minyak Jenis Pertalite di Kota Makassar dengan Pendekatan Model Fungsi Transfer Single Input Pada Data yang Mengandung Outlier = Forecasting the Total Consumption of Pertalite Fuel Oil in Makassar City with a Single Input Transfer Function Model Approach to Data Containing Outliers.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Miolo, Alya Safira Irtiqa  (2023) Pemodelan Small Area Estimation untuk Estimasi Pengeluaran per Kapita di Sulawesi Selatan Menggunakan Empirical Best Linear Unbiased Prediction.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Misbahuddin, Misbahuddin  (2023) Analisis Survival dengan Model Regresi Cox Stratified pada Pasien COVID-19 Tahun 2020-2021 di Kota Makassar = Survival Analysis with a Stratified Cox Regression Model in COVID-19 Patients in Makassar City, Shout Sulawesi Province, Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  Muh.ishak, Muh.ishak  (2023) Penerapan Peta Kendali Nonparametrik Cumulative - Sum Berdasarkan Statistik Mann-Whitney pada Pengendalian Kualitas Produk (Studi Kasus: Produksi Koran di PT. Fajar Makassar Grafika).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Muliana, Muliana  (2023) Pemodelan Geographically Weighted Panel Regression Pada Data Angka Harapan Hidup Di Provinsi Sulawesi Selatan = Geographically Weighted Panel Regression Modeling on Life Expectancy Data in South Sulawesi Province.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Muspa, Ade  (2023) ANALISIS SEBARAN SPASIAL VEGETASI MANGROVE PADA KAWASAN HUTAN MANGROVE TONGKE-TONGKE KECAMATAN SINJAI TIMUR KABUPATEN SINJAI.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Muzakir, Nurul Azizah  (2023) Analisis Kejadian Curah Hujan Ekstrem di Kota Makassar Menggunakan Distribusi Generalized Extreme Value dan Generalized Pareto = Analysis of Extreme Rainfall Event in Makassar City Using Distributions of Generalized Extreme Value and Generalized Pareto.  Thesis thesis, Universitas Hasanuddin.   
+
+  Najamuddin, Fadhila Febriyanti  (2023) Estimasi Value at Risk dalam Investasi Saham Perusahaan Sektor Consumer Non Cyclical di Bursa Efek Indonesia dengan Pendekatan Extreme Value Theory = Value at Risk Estimation in Consumer Non Cyclical Sector Companies Stock Investment in Indonesia Stock Exchange Using Extreme Value Theory Approach.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nasruddin, Nurmasyita  (2023) Peta Kendali Demerit Untuk Data Autokorelasi = Control Chart Demerit for Data Autocorrelation.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Noviana, Evy  (2023) POTENSI EKSTRAK DAUN NIPAH (Nypa fruticans) SEBAGAI ANTIKANKER TERHADAP SEL MCF-7 DENGAN METODE IN SILICO DAN IN VITRO = POTENTIAL OF NIPAH LEAVES EXTRACT (Nypa fruticans) AS ANTICANCER AGAINST MCF-7 CELLS WITH IN SILICO AND IN VITRO METHODS.  Thesis thesis, Universitas Hasanuddin.   
+
+  Nurazizah, Nurazizah  (2023) Penggunaan Bagan Kendali Fuzzy Exponentially Weighted Moving Average (FEWMA) Pada Data Roti di PT Ugiee Indonesia = The Use of Fuzzy Exponentially Weighted Moving Average (FEWMA) Control Chart on Bread Data at PT Ugiee Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nurfajrin. S, A. Ainun  (2023) PEMODELAN GEOGRAPHICALLY WEIGHTED NEGATIVE BINOMIAL REGRESSION DAN MIXED GEOGRAPHICALLY WEIGHTED NEGATIVE BINOMIAL REGRESSION PADA JUMLAH KASUS TUBERKULOSIS DI SULAWESI SELATAN.  Thesis thesis, Universitas Hasanuddin.   
+
+  Nurfaudsan, Muhammad Alamsyah  (2023) Peramalan Cryptocurrency Menggunakan Model Fuzzy Time Series Ruey Tsaur.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nurhidayatullah, Nurhidayatullah  (2023) Penerapan Metode Exhaustive Chi-Square Automatic Interaction Detection pada Klasifikasi Penderita Diabetes dan Non Diabetes = Application of the Exhaustive Chi-Square Automatic Interaction Detection Method in the Classification of Diabetic and Non-Diabetic Patients.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nursyahfika, Nursyahfika  (2023) Perbandingan Bagan Kendali Multivariate Cumulative Sum 1 dan 2 pada Data Kualitas Minyak Kelapa Sawit = Comparison of Multivariate Cumulative Sum 1 and 2 Control Charts on Palm Oil Quality Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Palinoan, Kezia Agra  (2023) Pemodelan Regresi Binomial Negatif Menggunakan Estimator Jackknife Negative Binomial Ridge Regression Pada Data Angka Kematian Bayi Provinsi Sulawesi Selatan = Negative Binomial Regression Modeling Using the Jackknife Negative Binomial Ridge Regression Estimator on Infant Mortality Rate Data in South Sulawesi Province.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Palungan, Kevin Ekarinaldo  (2023) Penggunaan Metode Copula Gaussian untuk Menentukan Nilai Value at Risk Investasi Saham pada Bank BCA dan Bank BRI= Using the Gaussian Copula Method to Determine the Value at Risk of Stock Investments in BCA and BRI Banks.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Pangruruk, Thesya Atarezcha  (2023) Penerapan Model Fungsi Transfer Multi Input pada Peramalan Tingkat Inflasi di Sulawesi Selatan = Application of the Multi Input Transfer Function Model to Inflation Rate Forecasting in South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  Payung, Nehemia Millenium  (2023) PENDUGAAN SELANG KEPERCAYAAN EKSAK CLOPPER-PEARSON PADA PROPORSI BINOMIAL MENGGUNAKAN TAIL FUNCTION DENGAN SAMPLE SIZE DETERMINATION = CLOPPER-PEARSON CONFIDENCE INTERVAL ESTIMATION ON BINOMIAL PROPORTION USING TAIL FUNCTION WITH SAMPLE SIZE DETERMINATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Pratiwi, Yasmin  (2023) Penggunaan Bagan Kendali Hybrid Exponentially Weighted Moving Average (HEWMA) Pada Data Produksi Roti di D'roti Bakery & Cake = The use of Hybrid Exponentially Weighted Moving Average (HEWMA) Control Chart in Bread Production Data at D'roti Bakery & Cake.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rahmawati, Wahyu Dwi  (2023) Pemodelan Semiparametric Geographically Weighted Regression pada Kasus Jumlah Penduduk Miskin di Provinsi Papua Menggunakan Linear Model Coregionalization = Semiparametric Geographically Weighted Regression Modeling in the Case of the Number of Poor Population in Papua Province Using Linear Model Coregionalization.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rajab, Andi Muhammad  (2023) Penerapan Bagan Kendali Modified Cumulative Sum dalam Mendeteksi Pergeseran Rata-Rata pada Data Produksi Pipa Besi Pt. Pacific Angkasa Abadi.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ramadhani, Salsabilah  (2023) RANCANGAN CROSS OVER YANG MENGANDUNG OUTLIER DENGAN ESTIMASI ROBUST M = CROSS OVER DESIGN CONTAINING OUTLIER USING ROBUST M.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rasyid, Sapriadi  (2023) PERBANDINGAN K-MEANS CLUSTER DENGAN DENSITY-BASED SPATIAL CLUSTERING OF APPLICATION WITH NOISE PADA DATA INDIKATOR KEMISKINAN PROVINSI SULAWESI SELATAN.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ratmila, Ratmila  (2023) PETA KENDALI ZERO INFLATED GENERALIZED POISSON MODIFIKASI EXPONENTIALLY WEIGHTED MOVING AVERAGE PADA DATA YANG OVERDISPERSI DAN ZERO INFLATION = ZERO INFLATED GENERALIZED POISSON MODIFIED EXPONENTIALLY WEIGHTED MOVING AVERAGE CONTROL CHART ON OVERDISPERSION DAN ZERO INFLATION DATA.  Thesis thesis, Universitas Hasanuddin.   
+
+  Rifaldi, Muhammad Rayhan  (2023) Pemodelan Geographically Weighted Regression dengan Pendekatan Spline Truncated pada Kasus Balita Gizi Kurang di Provinsi Sulawesi Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rombeallo, Esra  (2023) ANALISIS RESPONSE BASED UNITS SEGMENTATION PARTIAL LEAST SQUARE (REBUS PLS) PADA DATA EKONOMI TERHADAP INDEKS PEMBANGUNAN MANUSIA = ANALYSIS OF RESPONSE BASED UNITS SEGMENTATION PARTIAL LEAST SQUARE (REBUS PLS) ON ECONOMIC DATA ON THE HUMAN DEVELOPMENT INDEX.  Thesis thesis, Universitas Hasanuddin.   
+
+  Salim, Nur Anisa Syahbani  (2023) Penerapan Algoritma Fuzzy Subtractive Clustering untuk Pengelompokkan Kabupaten/Kota di Provinsi Sulawesi Selatan Berdasarkan Data Luas Panen dan Produksi Beras.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sarina, Sarina  (2023) Estimasi Parameter Model Persamaan Simultan Menggunakan Metode Two Stage Ridge Regression Dan Two Stage Ridge Liu = Simultaneous Equation Model Parameter Estimation Using Two Stage Ridge Regression And Two Stage Ridge Liu Method.  Thesis thesis, Universitas Hasanuddin.   
+
+  Semida, Refa Joyce  (2023) Pemodelan Regresi Data Panel Tidak Seimbang Menggunakan Metode Maximum Likelihood Dengan Pembobot Minimum Variance Quadratic Unbiased Estimation.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sonya, Sonya  (2023) Performa Peta Kendali Double Exponentially Weighted Moving Average dalam Monitoring Pergeseran Mean Proses (Studi Kasus: Produksi Cacat Butsudan di PT. Maruki International Indonesia).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Syam, Ummul Auliyah  (2023) PEMODELAN ROBUST SPATIAL DURBIN MODEL PADA DATA KASUS TUBERKULOSIS DI PROVINSI SULAWESI SELATAN DENGAN METODE MM-ESTIMATOR.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Syukur, Muhammad Ibnu  (2023) PENERAPAN METODE ROBUST KRIGING PADA DATA CURAH HUJAN WILAYAH SULAW ESI SELATAN UNTUK MENGESTIMASI ADANYA OUTLIER YANG DISEBABKAN OLEH DATA HILANG.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Tandirerung, Rael Hofni  (2023) PENERAPAN ADAPTIVE NEURO FUZZY INFERENCE SYSTEM (ANFIS) DALAM MERAMALKAN CURAH HUJAN DI KABUPATEN MAROS.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Tioris, Stefani Deborah  (2023) Pendugaan Peluang Kenaikan Harga Saham Menggunakan Selang Kepercayaan Teracak Parameter Distribusi Bernoulli = Estimating the Probability of Stock Price Increase Using Randomized Confidence Intervals of Bernoulli Distribution Parameters.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ulandari, Reski  (2023) Perbandingan Metode Autoregressive Integrated Moving Average dengan Metode Hybrid Autoregressive Integrated Moving Average Jaringan Saraf Tiruan Pada Peramalan Harga Emas.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Wahdaniyah, Juni  (2023) PEMODELAN REGRESI DATA PANEL TIDAK SEIMBANG MENGGUNAKAN METODE FEASIBLE GENERALIZED LEAST SQUARE PADA DATA PERUSAHAAN MANUFAKTUR DI BURSA EFEK INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Waibusi, Hendriete T. M.  (2023) ESTIMASI PARAMETER REGRESI RIDGE ROBUST PADA DATA PROFIL KESEHATAN SULAWESI SELATAN.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Widjaja, Imelda  (2023) Estimasi koefisien regresi logistik biner dengan metode least absolute shrinkage and selection operator.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Yahya, Muh Zarkawi  (2023) ANALISIS PERBANDINGAN ALGORITMA NAÏVE BAYES DAN SUPPORT VECTOR MACHINE DALAM MENGKLASIFIKASI KELANGSUNGAN PEMBERIAN ASI EKSLUSIF DI INDONESIA = COMPARATIVE ANALYSIS OF THE NAÏVE BAYES AND SUPPORT MACHINE LEARNING ALGORITHM IN CLASSIFYING THE CONTINUITY OF EXCLUSIVE BREASTFEEDING IN INDONESIA.  Thesis thesis, Universitas Hasanuddin.   
+
+  Yani, Ahmad  (2023) Pemodelan Regresi Semiparametrik Birespon dengan Estimator Spline Terboboti = Modelling of Biresponse Semiparametric with Weighted Spline Estimator.  Thesis thesis, Universitas Hasanuddin.   
+
+  Yusran, Muhammad  (2023) Analisis Sentimen Kurikulum Merdeka Menggunakan Klasifikasi Multinomial Naïve Bayes dan Bernoulli Naïve Bayes dengan Seleksi Fitur Query Expansion Ranking.  Skripsi thesis, Universitas Hasanuddin.   
+
+  
+ANGGRAINI, NURUL HIDAYANTI  (2024) Regresi Kuantil Elastic-Net dan Two-Step Robust Weighted Least Squares Elastic-Net Pada Analisis Return Saham Indonesia = Quantile Regression Elastic-Net and Two-Step Robust Weighted Least Squares Elastic-Net in in Indonesian Stock Return Analysis.  Thesis thesis, Universitas Hasanuddin.   
+
+  ANIA, SAMSIR ADITYA  (2024) MODEL REGRESI ROBUST IMPROVED GEOGRAPHICALLY AND TEMPORALLY WEIGHTED UNTUK ANGKA KEJADIAN DEMAM BERDARAH DENGUE DI SULAWESI SELATAN TAHUN 2016-2021 = ROBUST IMPROVED GEOGRAPHICALLY AND TEMPORALLY WEIGHTED REGRESSION MODEL FOR DENGUE HEMORRHAGIC FEVER INCIDENCE IN SOUTH SULAWESI IN 2016-2021.  Thesis thesis, Universitas Hasanuddin.   
+
+  ASTUTI, MITA  (2024) Perbandingan Metode Random Forest dan Naive Bayes pada Klasifikasi Perilaku Mahasiswa di LMS SPADA Indonesia = Comparison of Random Forest and Naive Bayes Methods in Student Behavior Classification at LMS SPADA Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  AULIANA, NUR HIKMAH  (2024) Analisis Periode Kekeringan Meteorologis Berbasis Standardized Precipitation Evapotranspiration Index Menggunakan Pendekatan Power Law Process = Analysis of Meteorological Drought Period Based on Standardized Precipitation Evapotranspiration Index Using Power Law Process Approach.  Thesis thesis, Universitas Hasanuddin.   
+
+  Abdullah, Khairunnisa  (2024) PEMODELAN REGRESI ROBUST DENGAN ESTIMASI METHOD OF MOMENT DAN GENERALIZED MOMENT.  Thesis thesis, Universitas Hasanuddin.   
+
+  Abuspin, Muammar Ashari  (2024) Analisis Perbandingan K-Nearest Neighbor Dan Support Vector Machine dalam Klasifikasi Pasien Covid-19 Di Kota Makassar = Comparative Analysis of K-Nearest Neighbor and Support Vector Machine in Classifying Covid-19 Patients in Makassar City.  Thesis thesis, Universitas Hasanuddin.   
+
+  Ade, Najmawati  (2024) PENERAPAN REGRESI ROBUST PADA FAKTOR-FAKTOR YANG MEMENGARUHI REMISKINAN DI PROVINSI SULAWESI SELATAN MENGGUNAKAN PENDUGA LEAST TRIMMED SQUARE.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Afika, Nur  (2024) Estimasi Model Regresi Nonparametrik Menggunakan Estimator Kernel Gasser-Müller Gaussian pada Data Curah Hujan di Kota Makassar.  Skripsi thesis, unhas.   
+
+  Afrinah, Ayu  (2024) PENERAPAN PETA KENDALI X ̅-S NEUTROSOPHIC PADA DATA SUHU KOTA MAKASSAR.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Aisyah, Nur  (2024) ESTIMASI INTERVAL KEPERCAYAAN PARAMETER MODEL TINGKAT KEMISKINAN MELALUI REGRESI SEMIPARAMETRIK SPLINE UNTUK DATA LONGITUDINAL = CONFIDENCE INTERVAL ESTIMATION OF POVERTY RATE MODEL PARAMETERS BY SEMIPARAMETRIC SPLINE REGRESSION FOR LONGITUDINAL DATA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Akbar, Nurfauzul  (2024) Aplikasi Metode Wavelet Thresholding Dengan Maximal Overlap Discrete Wavelet Transform Pada Data Ekspor Nonmigas Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  Al Aqsha, Ahmad Ryan  (2024) Pemodelan Geographically Weighted Zero Inflated Negative Binomial Regression pada Data Jumlah Kasus Kematian Bayi Akibat Demam di Provinsi Sulawesi Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Aldini, Aisyah Putri  (2024) PERFORMA PENGGUNAAN METODE SPATIAL EMPIRICAL BEST LINEAR UNBIASED PREDICTOR PADA SMALL AREA ESTIMATION = PERFORMANCE OF USING THE SPATIAL EMPIRICAL BEST LINEAR UNBIASED PREDICTOR METHOD IN SMALL AREA ESTIMATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Alkaf, Muh. Fahmi  (2024) Pemodelan Nonparametric Geographically and Temporally Weighted Regression dengan Pendekatan Spline Truncated pada Tingkat Pengangguran Terbuka di Provinsi Sulawesi Selatan = The Model for the Open Unemployment Rate Through Geographically Temporally Weighted Spline Nonparametric Regression.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Amin, Fadlan  (2024) Pemodelan Robust Geographically and Temporally Weighted Autoregressive dengan MM-Estimator pada Tingkat Pengangguran Terbuka di Sulawesi Selatan.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Anandari, Vinaya Rifqi  (2024) PERAMALAN CURAH HUJAN EKSTREM DI KOTA MAKASSAR MENGGUNAKAN MAXIMUM PAIRWISE LIKELIHOOD ESTIMATION DENGAN PENDEKATAN COPULA GAUSSIAN = FORECASTING EXTREME RAINFALL IN MAKASSAR USING MAXIMUM PAIRWISE LIKELIHOOD ESTIMATION WITH THE GAUSSIAN COPULA APPROACH.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ar Rasis, Paramitha  (2024) Estimasi Model Gula Darah Pasien Diabetes Melalui Regresi Spline Kuadratik Terboboti.  Skripsi thesis, unhas.   
+
+  Arumtiwi, Andi Atirah  (2024) PENDEKATAN MINIMUM VARIANCE QUADRATIC UNBIASED ESTIMATION DALAM ANALISIS REGRESI DATA PANEL DENGAN PENDUGAAN KOMPONEN GALAT DUA ARAH MENGGUNAKAN METODE BIGGERS.  Skripsi thesis, Universitas Hasanuddin.   
+
+  As Sikib, Ankaz  (2024) EVALUASI MODEL HYBRID CLUSTERING LARGE APPLICATIONS DAN FUZZY TIMESERIES MARKOV CHAIN PADA PERAMALAN POLUSI UDARA PARTICULAR MATTER DI KOTA JAKARTA.  Thesis thesis, unhas.   
+
+  Auliyah, Dwi  (2024) MODEL REGRESI LOGISTIK SPARSE PRINCIPAL COMPONENT ANALYSIS PADA PREDIKTOR KATEGORIK.  Thesis thesis, universitas hasanuddin makassar.   
+
+  Azis, Melda Fitriyani  (2024) PEMODELAN JACKKNIFE RIDGE MM-ESTIMATOR PADA DATA PRODUK DOMESTIK REGIONAL BRUTO TAHUN 2020 = MODELING JACKKNIFE RIDGE MM-ESTIMATOR ON THE GROSS REGIONAL DOMESTIC PRODUCT DATA OF 2020.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Bahri, Andi Muhammad Alif Reza  (2024) Penentuan Cluster Terbaik Menggunakan Metode Fuzzy C-Means dengan Analisis Komponen Utama.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Basri, Nurfajriyani  (2024) Pemodelan Regresi Cox Proportional Hazard Pada Data Ties Dengan Metode Estimasi Partial Likelihood Efron Dan Partial Likelihood Exact.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  ERIKA, CYNTHIA ANGEL  (2024) Penerapan Model Autoregressive Fractionally Integrated Moving Average - Generalized Autoregressive Conditional Heteroscedasticity dalam Peramalan Nilai Tukar Rupiah terhadap Euro = Application of the Autoregressive Fractionally Integrated Moving Average - Generalized Autoregressive Conditional Heteroscedasticity Model in Forecasting Rupiah to Euro Exchange Rate.  Thesis thesis, Universitas Hasanuddin.   
+
+  Fadhilah, Nurrifdah  (2024) Estimasi Model Regresi Nonparametrik Multiprediktor Menggunakan Polinomial Lokal dengan Metode Weighted Least Square pada Data Harga Saham PT Bank Syariah Indonesia Tbk = Estimation of a Multipredictor Nonparametric Regression Model Using Local Polynomials with the Weighted Least Square Method on PT Bank Syariah Indonesia Tbk Stock Price Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fadhilah, Nurul  (2024) Model Regresi Linear menggunakan Metode Bayesian pada Data Produk Domestik Regional Bruto di Indonesia = Linear Regression Model Using Bayesian Method On Gross Regional Domestic Product Data In Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  Fairuzzabadi, M. Razy Qarar  (2024) Pemodelan Regresi Kuantil Dengan Estimator Spline Kubik Multivariabel Pada Data Pasien Penderita Demam Berdarah Dengue.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Fauziah, Najlah  (2024) Penerapan Metode Finite Mixture Partial Least Square dalam Analisis Structural Equation Modeling Pada Data Pendidikan di Indonesia Tahun 2022.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Firawati, Firawati  (2024) PEMODELAN DATA CURAH HUJAN MELALUI REGRESI NONPARAMETRIK MULTIVARIABEL DENGAN ESTIMATOR DERET FOURIER.  Thesis thesis, Universitas Hasanuddin.   
+
+  Fitrah, Rahmi Nurul Ainun  (2024) APLIKASI PEGEL’S EKSPONENTIAL SMOOTHING MENGGUNAKAN OPTIMASI MODIFIKASI GOLDEN SECTION PADA PERAMALAN PRODUKSI KARET KERING DI INDONESIA TAHUN 2022 = APPLICATION OF PEGEL'S EXPONENTIAL SMOOTHING USING MODIFIED GOLDEN SECTION OPTIMIZATION IN FORECASTING DRY RUBBER PRODUCTION IN INDONESIA IN 2022.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fitri, Zakiah  (2024) Pemodelan Regresi Spasial dengan Pembobot Customize Berdasarkan Analisis Klaster Average Linkage pada Kasus Tuberkulosis di Sulawesi Selatan = Spatial Regression Modeling with Customize Weights Based on Average Linkage Cluster Analysis on Tuberculosis Cases in South Sulawesi.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Fitriayu, Fitriayu  (2024) Pemodelan Geographically Weighted Poisson Regression Semiparametric Pada Data Yang Mengandung Pencilan = Geographically Weighted Poisson Regression Semiparametric Modeling On Data Containing Outliers.  Thesis thesis, Universitas Hasanuddin.   
+
+  Ganap, Adella Bellatrix Zephaniah  (2024) PENERAPAN PETA KENDALI POISSON PROGRESSIVE MEAN PADA DATA JUMLAH PENGIRIMAN PAKET LION PARCEL BAROMBONG = Application of the Poisson Progressive Mean Control Chart on the Number of Package Deliveries Data for Lion Parcel Barombong.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hadijah, Sitti  (2024) PERAMALAN DENGAN HYBRID AUTOREGRESSIVE INTEGRATED MOVING AVERAGE - ADAPTIVE NEURO FUZZY INFERENCE SYSTEM PADA DATA INFLASI PROVINSI SULAWESI SELATAN = FORECASTING WITH HYBRID AUTOREGRESSIVE INTEGRATED MOVING AVERAGE - ADAPTIVE NEURO FUZZY INFERENCE SYSTEM ON INFLATION DATA OF SOUTH SULAWESI PROVINCE.  Thesis thesis, Universitas Hasanuddin.   
+
+  Hakam, Andi Muhammad  (2024) ESTIMASI RISIKO INVESTASI SAHAM DENGAN CONDITIONAL VALUE AT RISK PADA PERUSAHAAN SEKTOR CONSUMER NON-CYCLICALS DI BURSA EFEK INDONESIA MENGGUNAKAN PENDEKATAN EXTREME VALUE THEORY.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Haq, Izzul  (2024) PEMODELAN REGRESI LOGISTIK BINER BAYESIAN DENGAN METODE ADAPTIVE SYNTHETIC SAMPLING PADA DATA PENYAKIT JANTUNG ISKEMIK = BAYESIAN BINARY LOGISTIC REGRESSION MODELLING WITH ADAPTIVE SYNTHETIC SAMPLING METHOD ON ISCHAEMIC HEART DISEASE DATASET.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Hikmah, Nurul  (2024) Pemodelan Regresi Seemingly Unrelated Menggunakan Metode Maximum Likelihood pada Data Panel = Seemingly Unrelated Regression Modeling Using the Maximum Likelihood Method on Panel Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ibrahim, Aliyah Az Zahra  (2024) PEMODELAN SECOND ORDER GENERALIZED STRUCTURAL COMPONENT ANALYSIS DALAM MELIHAT PENGARUH e-SERVICE QUALITY TERHADAP e-CUSTOMER SATISFACTION DAN e-COSTUMER LOYALTY.  Thesis thesis, Universitas Hasanuddin.   
+
+  Ikhsani, Nurul  (2024) Pemodelan Geographically Weighted Bivariate Poisson Inverse Gaussian Regression Dengan Menggunakan Algoritma Berndt-Hall-Hall-Hausman (Studi Kasus: Kematian Ibu dan Neonatal di Sulawesi Selatan Tahun 2021).  Skripsi thesis, unhas.   
+
+  Ikhwana, Nur  (2024) PERBANDINGAN METODE HYBRID SSA-SVR DAN HYBRID SSA-ARIMA DALAM MEMPREDIKSI INFLASI DI INDONESIA = COMPARISON OF HYBRID SSA-SVR AND HYBRID SSA-ARIMA METHODS FOR PREDICTING INFLATION IN INDONESIA.  Thesis thesis, Universitas Hasanuddin.   
+
+  Irfan Sabri, Muh.  (2024) PEMODELAN GEOMETRIC BROWNIAN MOTION DAN VALUE AT RISK DALAM MENGUKUR RESIKO DAN PERAMALAN HARGA SAHAM (Studi Kasus: Saham PT. Garuda Indonesia Persero Tbk. Tahun 2023).  Skripsi thesis, UNIVERSITAS HASANUDDIN.   
+
+  Ismah, Nahdah Azatil  (2024) PEMODELAN REGRESI ROBUST MENGGUNAKAN LEAST MEDIAN OF SQUARES ESTIMATION PADA INDEKS PEMBANGUNAN MANUSIA DI INDONESIA = ROBUST REGRESSION MODELING USING LEAST MEDIAN OF SQUARES ESTIMATION ON THE HUMAN DEVELOPMENT INDEX IN INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  JABBAR, ABDUL  (2024) PERAMALAN MODEL HYBRID METODE SEASONAL AUTOREGRESSIVE INTEGRATED MOVING AVERAGE WITH EXOGENOUS VARIABLES DAN METODE EXPONENTIAL SMOOTHING HOLT-WINTERS (STUDI KASUS: INFLASI KOTA MAKASSAR) = FORECASTING HYBRID MODEL SEASONAL AUTOREGRESSIVE INTEGRATED MOVING AVERAGE WITH EXOGENOUS VARIABLES METHOD AND EXPONENTIAL SMOOTHING HOLT-WINTERS METHOD (CASE STUDY: INFLASI OF MAKASSAR CITY).  Thesis thesis, Universitas Hasanuddin.   
+
+  Julia, Rahmah Ningsih Dwika  (2024) PENGUJIAN KESAMAAN VEKTOR PARAMETER REGRESI LOGISTIK BINER PADA DUA POPULASI (Studi Kasus Stunting di Kabupaten Maros dan Kabupaten Takalar) = TESTING THE SIMILARITY OF BINARY LOGISTIC REGRESSION PARAMETER VECTORS IN TWO POPULATIONS (Case Study of Stunting in Maros Regency and Takalar Regency).  Skripsi thesis, Universitas Hasanuddin.   
+
+  KARIMAH, NAHLA  (2024) PENERAPAN METODE RESIDUL BOOTSTRAP PADA SPATIAL AUTOREGRESSIVE MOVING AVERAGE (Studi Kasus: Jumlah Balita Gizi Buruk di Sulawesi Selatan Tahun 2021).  Skripsi thesis, Universitas Hasanuddin.   
+
+  KURUNULBAHRIAH ALIYAH, NURUL  (2024) Model Data Kemiskinan di Provinsi Papua dengan Regresi Semiparametrik melalui Penalized Spline Terboboti.  Skripsi thesis, unhas.   
+
+  Kalotong, Ryval Vadry  (2024) Perbandingan Akurasi Peramalan Metode Autoregressive Integrated Moving Average dengan Metode Singular Spectrum Analysis (Studi Kasus: Nilai Ekspor Migas Indonesia).  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Kayana, Krisna Dwi  (2024) PEMODELAN ROBUST GEOGRAPHICALLY WEIGHTED BINARY LOGISTIC REGRESSION MENGGUNAKAN METODE M-ESTIMATION DENGAN PEMBOBOT ANDREW (Studi Kasus Persentase Penduduk Miskin di Sulawesi Selatan Tahun 2022) = ROBUST MODELING OF GEOGRAPHICALLY WEIGHTED BINARY LOGISTIC REGRESSION USING M-ESTIMATION METHOD WITH ANDREW'S WEIGHTING (Case Study: Percentage of Poor Population in South Sulawesi in 2022).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Khauly, Alfi Nur  (2024) PENERAPAN PETA KENDALI EXPONENTIALLY WEIGHTED MOVING AVERAGE PADA DATA DEMERIT = IMPLEMENTATION OF EXPONENTIALLY MOVING WEIGHTED AVERAGE CONTROL CHART ON DEMERIT DATA.  Thesis thesis, Universitas Hasanuddin.   
+
+  LESTARI, SUCI  (2024) Peramalan dengan Hybrid Exponential Smoothing - Neural Network Pada Data Jumlah Penumpang Keberangkatan Domestik di Bandara Sultan Hasanuddin Makassar = Forecasting with Hybrid Exponential Smoothing - Neural Network on Data of The Number of Passenger Departing Domestic Flights at Sultan Hasanuddin Airport.  Thesis thesis, Universitas Hasanuddin.   
+
+  Lestari, Ayu  (2024) Penggunaan Metode Gaussian Kernel Fuzzy C-Means untuk Pengelompokan Kabupaten/Kota Provinsi Sulawesi Selatan Berdasarkan Data Kriminalitas = The Use of Gaussian Kernel Fuzzy C-Means for Clustering Regencies/Cities in South Sulawesi Province Based on Crime Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Lisnayati, Seli  (2024) Pemodelan Regresi Semiparametrik Smoothing Spline pada Data Longitudinal (Studi Kasus Kemiskinan di Provinsi Sulawesi Tenggara) = Semiparametric Smoothing Spline Regression Modeling on Longitudinal Data (Case Study of Poverty in Southeast Sulawesi Province).  Skripsi thesis, Universitas Hasanuddin.   
+
+  MUTMAINNAH, AYU  (2024) PERAMALAN DENGAN METODE ADAPTIVE NEURAL-BASED FUZZY INFERENCE SYSTEM DAN SUPPORT VECTOR MACHINE (Studi Kasus: Indeks Harga Saham Gabungan) = FORECASTING WITH ADAPTIVE NEURAL-BASED FUZZY INFERENCE SYSTEM AND SUPPORT VECTOR MACHINE (Case Study: Composite Stock Price Index).  Thesis thesis, Universitas Hasanuddin.   
+
+  Magfirah, Nurul  (2024) Perbandingan K-Means dan K-Medoids pada Time Series-Based Clustering dengan Dynamic Time Warping pada Data Jumlah Penduduk Miskin di Sulawesi Selatan Tahun 2010-2023.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Maharani, Maryana  (2024) Pemodelan Robust Spatial Autoregressive dengan Metode MM-Estimator Pada Data Kasus Tuberkulosis di Sulawesi Selatan = Robust Spatial Autoregressive Modeling with MM-Estimator Method on Tuberculosis Case Data in South Sulawesi.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mahrani, Mahrani  (2024) ALGORITMA K-NEAREST NEIGHBOR SPASIO TEMPORAL DENSITY BASED CLUSTERING KASUS GEMPA BUMI DI PULAU SULAWESI.  Thesis thesis, universitas hasanuddin makassar.   
+
+  Mangiri, Nalto Batty  (2024) PEMODELAN GAUSSIAN COPULA MARGINAL REGRESSION (GCMR) UNTUK MENDETEKSI FAKTOR MAKROEKONOMI YANG BERPENGARUH PADA HARGA SAHAM.  Thesis thesis, universitas hasanuddin makassar.   
+
+  Marhama, Marhama  (2024) PENGGUNAAN METODE WAVELET THRESHOLDING DENGAN MAXIMAL OVERLAP DISCRETE WAVELET TRANSFORM PADA PERAMALAN CURAH HUJAN = USE OF WAVELET THRESHOLDING METHOD WITH MAXIMAL OVERLAP DISCRETE WAVELET TRANSFORM ON RAINFALL FORECASTING.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Marzeta, Febi  (2024) PENGGUNAAN PETA KENDALI EXTENDED EXPONENTIALLY WEIGHTED MOVING AVERAGE PADA DATA PRODUKSI PIPA BESI PT. PACIFIC ANGKASA ABADI.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mirzafanna Bilondatu, Jihan Nazmi  (2024) Penerapan Peta Kendali Arcsin Exponentially Weighted Moving Average Nonparametrik pada Data Persentase Kandungan Air dalam Virgin Coconut Oil.  Skripsi thesis, unhas.   
+
+  Mulia, Irma  (2024) Penggunaan Single Index Model dalam Optimalisasi Portofolio Saham untuk Data Tercluster dan Tanpa Cluster = Use of Single Index Model in Stock Portfolio Optimization for Clustered and Non-Clustered Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mursidin, Ahmad Mukhlish  (2024) Pemodelan Regresi Nonparametrik Poisson dengan Estimator Penalized Spline pada Kasus Jumlah Kematian Neonatus di Sulawesi Selatan = Estimation of Neonatal Death Cases with Penalized Spline in Nonparametric Poisson Regression.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mustabsyirah, Mustabsyirah  (2024) Penggunaan Peta Kendali Homogeneously Weighted Moving Average pada Data Produksi Pipa Besi PT. Pacific Angkasa Abadi = The Use of Homogeneously Weighted Moving Average Control Chart in Iron Pipe Production Data at PT. Pacific Angkasa Abadi.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Mutmainna, Inda  (2024) Pemodelan Regresi Nonparametrik Birespon Bootstrap Aggregating Multivariate Adaptive Regression Splines Pada Tingkat Kesejahteraan Penduduk = Nonparametric Regression Modeling of Birespon Bootstrap Aggregating Multivariate Adaptive Regression Splines on Population Welfare Level.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nabir, Fadillah Oktavia  (2024) PERFORMA MODEL REGRESI KOMPONEN UTAMA SPARSE PADA DATA ANGKA KEMISKINAN DI PROVINSI SULAWESI SELATAN TAHUN 2022 = PERFORMANCE OF SPARSE PRINCIPAL COMPONENT REGRESSION MODEL ON POVERTY NUMBER DATA IN SOUTH SULAWESI PROVINCE IN 2022.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nafila, Dania  (2024) Pengendalian Kualitas Proses Produksi Melalui Penerapan Peta Kendali Maximum Multivariate Cumulative Sum Berdasarkan Pendekatan Bootstrap.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Nasir, Nurul Hidaya  (2024) Pemodelan Generalized Poisson Regression dengan Estimasi Modified Jackknifed Poisson Ridge pada Kasus Jumlah Kematian Ibu di Provinsi Sulawesi Selatan Tahun 2021.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Nazwadiah Caesar, Nadia  (2024) Pemodelan Geographically and Temporally Weighted Regression dengan Principal Component Analysis pada Data yang Mengandung Multikolinearitas (Studi kasus: Indeks Ketahanan Pangan di Provinsi Sulawesi Selatan pada Tahun 2021-2023).  Skripsi thesis, unhas.   
+
+  Ningsi, Parida Ayu  (2024) PERBANDINGAN PETA KENDALI POISSON DOUBLE PROGRESSIVE MEAN DAN PETA KENDALI U PADA PRODUKSI ROTI DI PAKBATTEANG MANDIRI = COMPARISON OF POISSON DOUBLE PROGRESSIVE MEAN CONTROL CHART AND U CONTROL CHART ON BREAD PRODUCTION IN PAKBATTEANG MANDIRI.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nur Hikmah Auliana, - and Nurtiti Sunusi, - and Erna Tri Herdiani, -  (2024) Analysis of meteorological drought periods based on the Standardized Precipitation Evapotranspiration Index (SPEI) using the Power Law Process approach.  AIMS Environmental Science, 11(5): 682–702..       
+
+  Nurhidaya L, Nurhidaya L  (2024) PEMODELAN DATA WAKTU ANTAR KEJADIAN GEMPA BUMI YANG MENGANDUNG OUTLIER MENGGUNAKAN DISTRIBUSI EKSPONENSIAL TERKONTAMINASI = MODELING EARTHQUAKE INTER EVENT TIME DATA CONTAINING OUTLIERS USING CONTAMINATED EXPONENTIAL DISTRIBUTION.  Thesis thesis, Universitas Hasanuddin.   
+
+  Nurhidayah, Fauziah  (2024) Pemodelan Regresi Zero Inflated Poisson Inverse Gaussian Pada Jumlah Kasus Malaria di Puskesmas Kota Makassar = Pemodelan Zero Inflated Poisson Inverse Gaussian Regression pada Jumlah Kasus Malaria di Puskesmas Kota Makassar.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Nurtiti Sunusi, - and Giarno, - and Muflihah, - and Sumanta Pasari, -  (2024) Cluster analysis of rainfall patterns in Mamminasata: Validation of climate hazards group infrared precipitation with station dataset using observational comparisons.  Edelweiss Applied Science and Technology ISSN: 2576-8484 Vol. 8, No. 6, 9555-9567 2024.       
+
+  PERNANDA, HERIYANI  (2024) Penerapan Bagan Kendali Maximum Multivariate Exponential Weighted Moving Average pada Data Slag Nikel PT Vale Indonesia = Application of Maximum Multivariate Exponential Weighted Moving Average Control Chart on Nickel Slag Data at PT Vale Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  Pagalo, Azalia Filadelfia  (2024) Estimasi Indeks Harga Saham Gabungan Berdasarkan Model Regresi Kuantil Penalized Spline.  Skripsi thesis, Universitas Hasanuddin.   
+
+  RIF'AT, MUHAMMAD RAIS  (2024) Pemodelan Autoregressive Integrated Moving Average Dengan Variabel Eksogen Dan Threshold Generalized Autoregressive Conditional Heteroscedasticity (Studi Kasus: Saham Sektor Perindustrian Dan Nilai Tukar Rupiah Terhadap Dolar AS Tahun 2021-2024) = Modeling Autoregressive Integrated Moving Average with Exogenous Variables and Threshold Generalized Autoregressive Conditional Heteroscedasticity (Case Study: Industry Sector Stocks and Rupiah Exchange Rate Against the US Dollar for the period 2021-2024).  Thesis thesis, Universitas Hasanuddin.   
+
+  Rahmadhani. S, Salsabila  (2024) Pemodelan Bivariate Poisson Log-Normal Regression Pada Jumlah kasus Kusta di Indonesia = Bivariate Poisson Log-Normal Regression Modeling on the Number of Leprosy Cases in Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Rahman, Iswan  (2024) PENERAPAN BAGAN KENDALI NON PARAMETRIK DENGAN MENGGUKANAN METODE WILCOXON SIGN RANK PADA DATA PAKAN TERNAK PT. JAPFA COMFEED INDONESIA.  Thesis thesis, Universitas Hasanuddin.   
+
+  Rais, Nurhaliza  (2024) PENERAPAN MODEL MARKOV SWITCHING AUTOREGRESSIVE DALAM PERAMALAN HARGA SAHAM.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Ramadhani, Naaifah Putri  (2024) Perbandingan Peta Kendali Mixed Exponentially Weighted Moving Average – Cumulative Sum dengan Exponentially Weighted Moving Average dan Cumulative Sum (Studi Kasus: Kadar Fe Slag Nikel PT Vale Indonesia).  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Ramadhani, Nur Aliah  (2024) Pemodelan Regresi Nonparametrik dengan Pendekatan Complete Fourier Series Estimator pada Data Dengan dan Tanpa Unsur Trend = Nonparametric Regression Modeling with Complete Fourier Series Estimator Approach on Data with and Without Trend Element.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Randa, Eunike Laurine  (2024) Estimasi Paramater Model Panel Vector Autoregressive Dengan Estimator Blundell-Bond Generalized Method Of Moment (Studi Kasus: Indeks Pembangunan Manusia dan Laju Produk Domestik Regional Bruto di Indonesia Tahun 2014-2023) = Estimation of Panel Vector Autoregressive Model Parameters with Blundell-Bond Generalised Method Of Moment Estimator (Case Study: Human Development Index and Gross Regional Domestic Product Rate in Indonesia 2014-2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ratri, Divia  (2024) Pemodelan Hybrid Generalized Space Time Autoregressive dan Support Vector Regression dengan Pulse Intervention = Hybrid Generalized Space Time Autoregressive Modeling and Support Vector Regression with Pulse Intervention.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ridwan, Ridwan  (2024) Pemodelan Geographically Weighted Bivariate Poisson Inverse Gaussian Regression pada Jumlah Kasus Kusta di Pulau Sulawesi.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Ruben, Gilberty  (2024) PERBANDINGAN GENERALIZED ESTIMATING EQUATIONS DAN GENERALIZED LINEAR MIXED MODELS DALAM MENGANALISIS GANGGUAN PADA AUTOMATIC TELLER MACHINE.  Skripsi thesis, UNIVERSITAS HASANUDDIN.   
+
+  Rusdy, Dian Ayu Permata Sari  (2024) Penerapan Least Absolute Shrinkage and Selection Operator pada Geographically Weighted Logistic Regression (Studi Kasus: Unmet Need KB di Sulawesi Selatan) = The Implementation of Least Absolute Shrinkage and Selection Operator to Geographically Weighted Logistic Regression (Study Case: Unmet Need for Family Planning in South Sulawesi).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Ruslinda, Ruslinda  (2024) Pemodelan Statistical Downscaling Menggunakan Robust Jackknife Ridge Regression dengan Estimator Generalized-M untuk Peramalan Curah Hujan di Kabupaten Pangkep = Statistical Downscaling Modeling Using Robust Jackknife Ridge Regression with Generalized-M Estimator for Rainfall Forecasting in Kabupaten Pangkep.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sadikin, Taufiqurrahman  (2024) PENERAPAN PETA KENDALI NEUTROSOPHIC MOVING AVERAGE PADA DATA SUHU KOTA MAKASSAR = Application of Neutrosophic Moving Average Control Chart on Makassar City Temperature Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sagita, Evi  (2024) PERBANDINGAN ESTIMASI VALUE AT RISK MENGGUNAKAN MULTIVARIAT GARCH-VINE COPULA ARCHIMEDEAN DAN ELLIPTICAL.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Salsa Fatih Yusuf, Anisa Haura  (2024) PEMODELAN REGRESI HURDLE BINOMIAL NEGATIF DAN HURDLE CONWAY MAXWELL POISSON PADA DATA PENYAKIT PARKINSON = MODELING HURDLE NEGATIVE BINOMIAL AND HURDLE CONWAY MAXWELL POISSON REGRESSION ON PARKINSON’S DISEASE DATA.  Thesis thesis, UNIVERSITAS HASANUDDIN.   
+
+  Sarapang, Yoel  (2024) Pemodelan Modified Spatial Durbin Model dengan Pendekatan Mean Shift Outlier Model pada Data Balita Wasting di Sulawesi Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sarliani, Sarliani  (2024) PENGEMBANGAN BAGAN KENDALI TRIPLE HOMOGENEOUSLY WEIGHTED MOVING AVERAGE DALAM MENINGKATKAN DETEKSI PERGESERAN RATA-RATA PROSES = DEVELOPMENT OF THE TRIPLE HOMOGENEOUSLY WEIGHTED MOVING AVERAGE CONTROL CHART IN ENHANCING DETECTION OF PROCESS MEAN SHIFTS.  Thesis thesis, Universitas Hasanuddin.   
+
+  Sayyidah, Wardatun  (2024) Analisis Sentimen MyPertamina Menggunakan Klasifikasi Naive Bayes Berseleksi Fitur Genetic Algorithm.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Sihombing, Ayuni  (2024) Pemodelan Eigenvector Spatial Filtering dan Random Effect Eigenvector Spatial Filtering pada data Tingkat Pengangguran Terbuka di Sulawesi Selatan.  Skripsi thesis, unhas.   
+
+  Sultan, Radia  (2024) Perbandingan Kinerja Metode Naïve Bayes dan Correlated Naïve Bayes dengan Penerapan Synthetic Minority Over-Sampling Technique (Studi Kasus: Klasifikasi Penyakit Jantung Iskemik pada Pusat Jantung Terpadu RSUP Dr. Wahidin Sudirohusodo Kota Makassar) = Comparison of the Performance of Naïve Bayes and Correlated Naïve Bayes Methods with the Application of Synthetic Minority Over-Sampling Technique (Case Study: Classification of Ischemic Heart Disease at the Integrated Cardiovascular Center of RSUP Dr. Wahidin Sudirohusodo Makassar).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Syaiful Rahmat, Andi  (2024) Analisis Faktor Pengaruh Jumlah Kasus HIV dan AIDS di Indonesia dengan Metode Bivariate Generalized Poisson Regression.  Skripsi thesis, unhas.   
+
+  Usman, Irwan  (2024) REGRESI KUANTIL DENGAN PENALTI GROUP LASSO UNTUK MEMODELKAN DATA JUMLAH KASUS TUBERKULOSIS DI PROVINSI SULAWESI SELATAN.  Thesis thesis, universitas hasanuddin makassar.   
+
+  Valentino, Rofino Dino  (2024) PENERAPAN GRAVITATIONAL SEARCH ALGORITHM PADA FUZZY GEOGRAPHICALLY WEIGHTED CLUSTERING DENGAN EVALUASI SILHOUETTE COEFFICIENT UNTUK ANALISIS KRIMINALITAS DI SULAWESI SELATAN = APPLICATION OF GRAVITATIONAL SEARCH ALGORITHM IN FUZZY GEOGRAPHICALLY WEIGHTED CLUSTERING WITH SILHOUETTE COEFFICIENT EVALUATION FOR CRIME ANALYSIS IN SOUTH SULAWESI.  Skripsi thesis, Universitas Hasanuddin.   
+
+  YULIANTI, ANDI SRI  (2024) PENDEKATAN REGRESI KUANTIL SPLINE DALAM STATISTICAL DOWNSCALING DENGAN ANALISIS KOMPONEN UTAMA (Studi Kasus : Curah Hujan Bulanan Kabupaten Pangkep) = QUANTILE SPLINE REGRESSION APPROACH IN STATISTICAL DOWNSCALING WITH PRINCIPAL COMPONENT ANALYSIS (Case Study: Monthly Rainfall in Pangkep Regency).  Thesis thesis, Universitas Hasanuddin.   
+
+  Yusri, Sri Rahayu  (2024) MODEL REGRESI DATA PANEL DENGAN STANDARD ERROR BERDASARKAN HASIL ESTIMASI MATRIKS VARIANSI CLUSTER ROBUST PADA KASUS TINGKAT PENGANGGURAN TERBUKA DI SULAWESI SELATAN = PANEL DATA REGRESSION MODEL WITH STANDARD ERROR BASED ON THE ESTIMATION RESULT OF CLUSTER ROBUST VARIANCE MATRIX IN THE CASE OF OPEN UNEMPLOYMENT RATE IN SOUTH SULAWESI.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Zahra, Nur Aviatul  (2024) PEMODELAN REGRESI ELASTIC NET ROBUST MM-ESTIMATION PADA DATA ANGKA KEMATIAN BAYI DI PROVINSI SULAWESI SELATAN TAHUN 2020.  Skripsi thesis, universitas hasanuddin makassar.   
+
+  Zhalzhabilah, Nurul Dwinilda  (2024) PERBANDINGAN METODE MINIMUM COVARIANCE DETERMINANT DAN MINIMUM VECTOR VARIANCE DALAM PEMODELAN REGRESI KOMPONEN UTAMA PADA DATA PRODUK DOMESTIK REGIONAL BRUTO.  Skripsi thesis, Universitas Hasanuddin makassar.   
+
+  AL MUNAWWARAH, SAID AGIL  (2025) Pemodelan Regresi Kuantil Least Absolute Shrinkage and Selection Operator dengan Estimator Spline Truncated pada Data Persentase Penduduk Miskin di Pulau Sulawesi Tahun 2023 = Quantile Least Absolute Shrinkage and Selection Operator Regression with Truncated Spline Estimator on Percentage of Poor People in Sulawesi Island 2023.  Skripsi thesis, Universitas Hasanuddin.   
+
+  ALIM, WIDIA KUSMARINA  (2025) Analisis Data Longitudinal dengan Model Regresi Nonparametrik Birespon Spline Truncated Terboboti = Longitudinal Data Analysis With Weighted Truncated Spline Biresponse Nonparametric Regression Model.  Thesis thesis, Universitas Hasanuddin.   
+
+  AMALIA, ELMA  (2025) Pendekatan Hybrid Autoregressive Integrated Moving Average with Exogenous Variable-Tipe Generalized Autoregressive Conditional Heteroskedasticity Simetris (Studi Kasus: Peramalan Harga Emas Global) = Hybrid Autoregressive Integrated Moving Average Approach with Exogenous Variable-Generalized Autoregressive Conditional Heteroskedasticity Symmetric Type (Case Study: Global Gold Price Forecasting).  Thesis thesis, Universitas Hasanuddin.   
+
+  AMIR, SYAHRUL MUBARAK  (2025) Optimasi Algoritma Support Vector Machine dengan Adaboost pada Komentar Youtube terhadap Pasangan Calon Presiden di Pemilu 2024 = Optimization of Support Vector Machine Algorithm with Adaboost on Youtube Comments Regarding Presidential Candidate in The 2024 Election.  Skripsi thesis, Universitas Hasanuddin.   
+
+  AMRA, NUR AZIZAH  (2025) Penerapan Peta Kendali Sequential-Based Exponentially Weighted Moving Average pada Data Pengamatan Individual (Studi Kasus: Data Volume Penjualan Saham PT Bank Central Asia Tbk)= Application of Sequential-Based Exponentially Weighted Moving Average Control Map on Individual Observation Data (Case Study: PT Bank Central Asia Tbk Stock Sales Volume Data).  Skripsi thesis, Universitas Hasanuddin.   
+
+  ANNISA, NURUL MUTIARA  (2025) Pemodelan Mixed Geographically and Temporally Weighted Ridge Regression pada Data Tingkat Pengangguran Terbuka di Sulawesi Selatan = Mixed Geographically and Temporally Weighted Ridge Regression Modeling on Open Unemployment Rate Data in South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  APRINI, JINAN ROFIFAH  (2025) Pemodelan Negative Binomial Regression pada Komponen Utama untuk Kasus Multikolinearitas (Studi Kasus: Pneumonia pada Balita di Provinsi Jawa Timur 2023) = Negative Binomial Regression Modelling on Principal Components for Multicolinearity Cases (Case Study: Pneumonia in Children Under Five in East Java Province 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  ARMAN, AGYM NASTIAR  (2025) PENERAPAN PETA KENDALI MIXED GENERALLY WEIGHTED MOVING AVERAGE-CUMULATIVE SUM (STUDI KASUS: PEMAKAIAN VOLUME AIR KOMPLEKS PERUMAHAN TONASA 1) = Application of Mixed Generally Weighted Moving Average Cumulative-Sum Control Chart (Case Study: Water Volume Usage of Tonasa 1 Housing Complex).  Skripsi thesis, Universitas Hasanuddin.   
+
+  ASTUTI, MEGA  (2025) Pemodelan Regresi Nonparametrik Kernel Estimator Nadaraya-Watson Menggunakan Fungsi Epanechnikov Dan Optimasi Bandwidth Berbasis Bat Algorithm (Studi Kasus: Indeks Saham Syariah Indonesia) = Nonparametric Regression Modeling Using Nadaraya-Watson Kernel Estimator with Epanechnikov Function and Bandwidth Optimization Based on Bat Algorithm (Case Study: Indonesia Sharia Stock Index).  Thesis thesis, Universitas Hasanuddin.   
+
+  Afdal, Muh.  (2025) Pemodelan Regresi Logistik Biner Categorical Principal Component Analysis dengan Estimator Spline Truncated (Studi Kasus: Data Keluarga Berisiko Stunting di Kabupaten Tana Toraja pada tahun 2023) = Binary Logistic Regression Modeling with Categorical Principal Component Analysis and Truncated Spline Estimator (Case Study: Families at Risk of Stunting in Tana Toraja Regency, 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Andrianingrum, Amalia  (2025) Perbandingan Model Threshold Generalized Autoregressive Conditional Heteroscedasticity Dan Exponential Generalized Autoregressive Conditional Heteroscedasticity Pada Peramalan Curah Hujan.  Skripsi thesis, UNIVERSITAS HASANNUDDIN.   
+
+  Arman, Ainun Aziza  (2025) Penggunaan Model Vector Autoregressive-Generalized Space Time Autoregressive Pada Peramalan Curah Hujan Provinsi Sulawesi Selatan Tahun 2019-2023 = Application of the Vector Autoregressive-Generalized Space Time Autoregressive Model for Rainfall Forecasting in South Sulawesi Province for 2019-2023.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Arman, Muhammad Rayhan  (2025) PEMODELAN GEOGRAPHICALLY WEIGHTED NONPARAMETRIC REGRESSION DENGAN SPLINE PENALIZED (Studi Kasus: Persentase Penduduk Miskin di Provinsi Sulawesi Selatan Tahun 2023) = GEOGRAPHICALLY WEIGHTED NONPARAMETRIC REGRESSION MODELING WITH PENALIZED SPLINE (Case Study: Percentage of Poor Population in South Sulawesi Province in 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Aulia, Nur  (2025) PEMODELAN ROBUST MIXED GEOGRAPHICALLY AND TEMPORALLY WEIGHTED REGRESSION DENGAN M-ESTIMATOR PADA DATA INDEKS KETAHANAN PANGAN DI SULAWESI SELATAN.  Skripsi thesis, UNIVERSITAS HASANNUDDIN.   
+
+  Auliarani, Asma  (2025) Pemodelan Regresi Conway Maxwell Poisson dengan Metode Jackknife Ridge Regression pada Kasus Jumlah Kematian Ibu di Provinsi Sulawesi Selatan Tahun 2021 = Modeling Conway-Maxwell Poisson Regression Using the Jackknife Ridge Regression Method: A Case Study of Maternal Mortality in South Sulawesi Province in 2021.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Azzahra, Alisha Shafa  (2025) PENERAPAN MODEL ROBUST MODIFIED JACKKNIFE RIDGE REGRESSION DENGAN MM-ESTIMATOR PADA DATA PDRB DI INDONESIA = APPLICATION OF THE ROBUST MODIFIED JACKKNIFE RIDGE REGRESSION MODEL WITH MM-ESTIMATOR ON GRDP DATA IN INDONESIA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Azzahra, Andi Nurannisa  (2025) Penggunaan Peta Kendali Generally Weighted Moving Average Pada Data Produksi Butsudan PT. Maruki International Indonesia.  Skripsi thesis, UNIVERSITAS HASANNUDDIN.   
+
+  BAKRY, BAKRY  (2025) Perbandingan Metode Fuzzy Time Series Cheng, Markov Chain dan Time Series ARIMA Pada Penjualan Mobil Toyota di Makassar = Comparison of the Fuzzy Time Series Method Cheng, Markov Chain and Time Series ARIMA on Toyota Car Sales in Makassar.  Thesis thesis, Universitas Hasanuddin.   
+
+  BANGSAWAN AS, ANDI TENRIOLA  (2025) ANALISIS SISTEM PEMANTAUAN JARINGAN KOMUNIKASI DATA BERBASIS FIBER OPTIK DENGAN METODE MIXED DEWMA-CUSUM SIGN DALAM MENDETEKSI ANOMALI LATENCY = ANALYSIS OF A FIBER-OPTIC DATA COMMUNICATION NETWORK MONITORING SYSTEM USING THE MIXED DEWMA-CUSUM SIGN METHOD TO DETECT ANOMALY LATENCY.  Thesis thesis, Universitas Hasanuddin.   
+
+  BASOEKI, RAUL ARISTO  (2025) Estimasi Parameter Model Volatilitas Stokastik Heston dan Aplikasinya pada Conditional Value at Risk (Studi Kasus: Data Saham PT. Telkom Indonesia Tbk. Tahun 2021-2024) = Parameter Estimation of the Heston Stochastic Volatility Model and Its Application to Conditional Value at Risk (Case Study: PT. Telkom Indonesia Tbk. Stock Data 2021–2024).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Baharuddin, Moh. Adjani Prasanna  (2025) PEMODELAN REGRESI LOGISTIK BINER RIDGE DENGAN ESTIMATOR SPLINE TRUNCATED (STUDI KASUS: STATUS GIZI BALITA DI KABUPATEN GOWA TAHUN 2023) = BINARY RIDGE LOGISTIC REGRESSION MODELING WITH TRUNCATED SPLINE ESTIMATOR (CASE STUDY: NUTRIONAL STATUS OF TODDLERS IN GOWA REGENCY IN 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Burhan, Nurlina  (2025) Pemodelan Regresi Poisson Tweedie Pada Kasus Angka Kematian Bayi (AKB) Di Sulawesi Selatan = Poisson Tweedie Regression Modeling On Infant Mortality Rate (IMR) Cases In South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  DAVALA, MUHAMMAD RIDZKY  (2025) Pemodelan Locally Compensated Ridge-Geographically and Temporally Weighted Regression Pada Data Tingkat Pengangguran Terbuka di Sulawesi Selatan = Locally Compensated Ridge-Geographically and Temporally Weighted Regression Modeling on Open Unemployment Rate Data in South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  Darsyad, A. Muh. Faldi Fadhil A.  (2025) OPTIMASI METODE HOLT-WINTER'S EXPONENTIAL SMOOTHING MENGGUNAKAN MODIFIKASI GOLDEN SECTION DAN LEVENBERG-MARQUARDT PADA PERAMALAN PRODUKSI CRUDE PALM OIL PERKEBUNAN INDONESIA TAHUN 2022 = OPTIMIZATION OF HOLT-WINTER'S EXPONENTIAL SMOOTHING METHOD USING MODIFIED GOLDEN SECTION AND LEVENBERG-MARQUARDT IN FORECASTING CRUDE PALM OIL PRODUCTION FOR INDONESIAN PLANTATIONS IN 2022.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Djalumang, Amalia Mentari  (2025) PEMODELAN MIXED GEOGRAPHICALLY WEIGHTED REGRESSION MENGGUNAKAN METODE MM-ESTIMATOR PADA DATA KEMISKINAN DI PROVINSI SULAWESI SELATAN = Mixed Geographically Weighted Regression Modeling Using the MM-Estimator Method on Data of Poverty in South Sulawesi Province.  Skripsi thesis, Universitas Hasanuddin.   
+
+  EVRYAN, FISKA  (2025) Peta Kendali Poisson Double Exponentially Weighted Moving Average Berdasarkan Metode Improved Squared Root Transformation = Poisson Control Map Double Exponentially Weighted Moving Average Based On The Improved Squared Root Transformation.  Thesis thesis, Universitas Hasanuddin.   
+
+  Edward, Muhammad  (2025) Pemodelan Zero Inflated Negative Binomial Regression Dengan Estimasi Markov Chain Monte Carlo (Studi Kasus Data Jumlah Kematian Akibat Demam Berdarah Dengue Di Pulau Kalimantan) = Modeling Zero Inflated Negative Binomial Regression with Markov Chain Monte Carlo Estimation (Case Study of Dengue Fever Mortality Data in Kalimantan Island).  Skripsi thesis, Universitas Hasanuddin.   
+
+  FADIL, MUHAMMAD  (2025) ANALISIS SUPPORT VECTOR MACHINE UNTUK KLASIFIKASI DATA MELALUI FUNGSI SPLINE = SUPPORT VECTOR MACHINE ANALYSIS FOR DATA CLASSIFICATION THROUGH SPLINE FUNCTION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  FITRIANA, FITRIANA  (2025) Peta Kendali Homogeneously Weighted Moving Average Berdasarkan Distribusi Generalized Conway-Maxwell Poisson Data Overdispersi Long-Tailed = Homogeneously Weighted Moving Average Control Chart Based on Generalized Conway-Maxwell Poisson Distribution for Overdispersi Long-Tailed Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  Fadilah, Nurul  (2025) Pemodelan Robust Mixed Geographically And Temporally Weighted Regression dengan MM-Estimator pada Data Indeks Ketahanan Pangan di Sulawesi Selatan = Robust Mixed Geographically And Temporally Weighted Regression Modeling with MM-Estimator on Food Security Index Data in South Sulawesi.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Firdaus Irianto, Ahmad  (2025) PENGGUNAAN METODE POSSIBILISTIC FUZZY C-MEANS UNTUK PENGELOMPOKAN KABUPATEN/KOTA DI PROVINSI SULAWESI SELATAN BERDASARKAN JUMLAH TENAGA KESEHATAN.  Skripsi thesis, UNIVERSITAS HASANNUDDIN.   
+
+  GALSAN, ANDI NAILAH IBTISAM  (2025) PEMODELAN ROBUST SPATIAL ERROR MODEL RANDOM EFFECT DENGAN GENERALIZED M-ESTIMATOR (Studi Kasus: Indeks Pembangunan Manusia di Indonesia Tahun 2018-2022) = Robust Spatial Error Model with Random Effect Using Generalized M-Estimator (Case Study: Human Development Index in Indonesia, 2018–2022).  Skripsi thesis, UNIVERSITAS HASANUDDIN MAKASSAR.   
+
+  GANDE, SITTI BALQIES  (2025) ESTIMASI SELANG KEPERCAYAAN REGRESI SEMIPARAMETRIK SPLINE PADA DATA LONGITUDINAL DENGAN METODE MAXIMUM LIKELIHOOD = CONFIDENCE INTERVAL ESTIMATION FOR SEMIPARAMETRIC SPLINE REGRESSION ON LONGITUDINAL DATA USING THE MAXIMUM LIKELIHOOD METHOD.  Thesis thesis, Universitas Hasanuddin.   
+
+  GOZHI, M. ZAKY HISYAM  (2025) Pemodelan Statistical Downscaling menggunakan Kibria-Lukman Regression untuk Peramalan Curah Hujan Kabupaten Pangkep = Statistical Downscaling Modeling using Kibria-Lukman Regression for Rainfall Forecasting in Pangkep Regency.  Skripsi thesis, Universitas Hasanuddin.   
+
+  HASIM, HARNAWANTI  (2025) Analisis Efektivitas Metode Principal Component Analysis–Multivariate Adaptive Regression Splines pada Data Indeks Pembangunan Manusia = Analysis of the Effectiveness of the Principal Component Analysis–Multivariate Adaptive Regression Splines Method on Human Development Index Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  HELMI, AINUN FAJRIAH  (2025) INTEGRASI MODEL TIME SERIES DAN GRAFIK KENDALI INDIVIDUAL MOVING RANGE UNTUK SISTEM PERINGATAN DINI KASUS DBD DI KOTA MAKASSAR = INTEGRATION OF TIME SERIES MODEL AND INDIVIDUAL MOVING RANGE CONTROL CHART FOR EARLY WARNING SYSTEM OF DENGUE FEVER CASES IN MAKASSAR CITY.  Thesis thesis, Universitas Hasanuddin.   
+
+  HIDAYAT, MUH. NURUL  (2025) ANALISIS KEAKURATAN PETA KENDALI CAMPURAN CUSUM DEWMA DALAM MENDETEKSI PERGESERAN RATA-RATA PROSES = ANALYSIS OF THE ACCURACY OF THE MIXED CUSUM DEWMA CONTROL CHART IN DETECTING PROCESS MEAN SHIFTS.  Thesis thesis, Universitas Hasanuddin.   
+
+  Hafid, Andi Nariza Azzahra  (2025) Analisis Jalur Pada Faktor faktor yang Mempengaruhi pengambilan keputusan bertransaksi melalui e-Wallet = Path Analysis of the Factors Affecting Consumers' Decision to Use E-Wallets for Transactions.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Henri, Putri  (2025) ANALISIS KORELASI KANONIK MENGGUNAKAN MATRIKS VARIAN KOVARIAN DENGAN PENAKSIR MINIMUM COVARIANCE DETERMINANT PADA DATA PENCILAN = CANONICAL CORRELATION ANALYSIS USING VARIANCE COVARIANCE MATRIX WITH MINIMUM COVARIANCE DETERMINANT ESTIMATOR ON OUTLIER DATA.  Skripsi thesis, Universitas Hasanuddin.   
+
+  ILHAM, A. RIFKAH LATIFA  (2025) Penerapan Peta Kendali Conway Maxwell Poisson Progressive Mean Dalam Pengendalian Kualitas Produksi Briket di PT Coconut Internasional Indonesia = Application of the Conway Maxwell Poisson Progressive Mean Control Chart in Quality Control of Briquette Production at PT Coconut Internasional Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  ISMAIL, KHUSNUL RYANA TASYA  (2025) ANALISIS SURVIVAL DENGAN PENDEKATAN MULTIVARIATE ADAPTIVE REGRESSION SPLINE MENGGUNAKAN RESIDUAL MARTINGALE PADA KASUS KEMATIAN BAYI = SURVIVAL ANALYSIS USING THE MULTIVARIATE ADAPTIVE REGRESSION SPLINE APPROACH BASED ON MARTINGALE RESIDUAL IN INFANT MORTALITY CASES.  Thesis thesis, Universitas Hasanuddin.   
+
+  Isra, Nur  (2025) Pemodelan Multivariate Adaptive Regression Spline dengan Algoritma Differential Evolution pada Data Indeks Harga Saham Gabungan = Multivariate Adaptive Regression Spline Modeling With Differential Evolution Algorithm On Indonesia Composite Index Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  JABBAR, ABDUL  (2025) PERAMALAN MODEL HYBRID METODE SEASONAL AUTOREGRESSIVE INTEGRATED MOVING AVERAGE WITH EXOGENOUS VARIABLES DAN METODE EXPONENTIAL SMOOTHING HOLT-WINTERS (STUDI KASUS: INFLASI KOTA MAKASSAR).  Thesis thesis, Universitas Hasanuddin.   
+
+  Jalil, Muflih Fadhlurrahman  (2025) Estimasi Parameter Model Regresi Kuantil Komponen Utama Dengan Estimator Spline Linear (Studi Kasus: Angka Kematian Ibu di Provinsi Sulawesi Selatan) = Parameter Estimation of Quantile Regression Model of Principal Components with Linear Spline Estimator (Case Study: Maternal Mortality Rate in South Sulawesi Province).  Skripsi thesis, Universitas Hasanuddin.   
+
+  LATIF, RIFKA YULIA SARI IFADAH  (2025) PEMODELAN REGRESI NONPARAMETRIK CAMPURAN SPLINE TRUNCATED DAN KERNEL EPANECHNIKOV PADA DATA LONGITUDINAL (Studi Kasus: Prevalensi Penggunaan Kontrasepsi Modern di Sulawesi Selatan) = Nonparametric Regression Modeling Using Mixed Estimators: Truncated Spline and Epanechnikov Kernel on Longitudinal Data — A Case Study of the Modern Contraceptive Prevalence Rate in South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  LUMALAN, PEBRIYANTI  (2025) Pemodelan Multivariate Adaptive Generalized Poisson Regression Spline pada Data Penderita Pneumonia Usia Balita di Provinsi Sulawesi Selatan = Multivariate Adaptive Generalized Poisson Regression Spline Modelling on Pneumonia Cases in Children under Five in South Sulawesi Province.  Thesis thesis, Universitas Hasanuddin.   
+
+  Lemido, Ryo  (2025) Pemodelan Regresi Logistik Biner Komponen Utama pada Data Multikolinieritas dengan Spline Truncated (Studi Kasus : Data Status Wasting Balita Stunting di Kabupaten Gowa pada Tahun 2023) = Principal Component Binary Logistic Regression Modeling on Multicollinearity Data with Spline Truncated (Case Study: Wasting Status Data of Stunted Toddlers in Gowa Regency in 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  MAHZA, SYAHZA  (2025) Penerapan Genetic Algorithm Dalam Optimasi Metode Triple Exponential Smoothing Holt-Winters (Studi Kasus: Produksi Kopi Indonesia Tahun 2023) = Application of Genetic Algorithm in Optimizing the Holt–Winters Triple Exponential Smoothing Method (A Case Study: Indonesian Coffee Production in 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  MELATI, POOJA  (2025) ANALISIS SPASIAL TEMPORAL KASUS PERCERAIAN DI INDONESIA MENGGUNAKAN GEOGRAPHICALLY WEIGHTED NEGATIVE BINOMIAL REGRESSION = SPATIAL TEMPORAL ANALYSIS OF DIVORCE CASES IN INDONESIA USING GEOGRAPHICALLY WEIGHTED NEGATIVE BINOMIAL REGRESSION.  Thesis thesis, Universitas Hasanuddin.   
+
+  MUSAFIR, MUSAFIR  (2025) PENERAPAN METODE COPULA T-STUDENT UNTUK MENENTUKAN NILAI VALUE AT RISK PADA DATA RETURN SAHAM (Studi Kasus : Return Saham PT Bank Negara Indonesia Tbk dan PT Bank Tabungan Negara Tbk) = APPLICATION OF THE COPULA T-STUDENT METHOD TO DETERMINE VALUE AT RISK ON STOCK RETURN DATA (Case Study: Share Returns of PT Bank Negara Indonesia Tbk and PT Bank Tabungan Negara Tbk).  Skripsi thesis, Universitas Hasanuddin.   
+
+  MUSTAMIN, AIDUL FITRI  (2025) Penerapan Smooth Transition Autoregressive Menggunakan Estimasi Nonlinear Least Squares (Studi Kasus: Peramalan Harga Saham Bank Central Asia) = Application of Smooth Transition Autoregressive Using Nonlinear Least Squares Estimation (Case Study: Forecasting the Stock Price of Bank Central Asia).  Skripsi thesis, Universitas Hasanuddin.   
+
+  NASIR, RAFLI SETIAWAN  (2025) Penerapan Peta Kendali Robust Exponentially Weighted Moving Average pada Data Kandungan pH Air Budidaya Ikan Lele di Kelompok Perikanan Bina Bersama Kota Makassar = Application of Robust Exponentially Weighted Moving Average Control Map on Data of Water pH Content of Catfish Cultivation in Bina Bersama Fishery Group, Makassar City.  Thesis thesis, Universitas Hasanuddin.   
+
+  NASRUDDIN, FADLYANSYAH NOER  (2025) Analisis Efektivitas Improved Square Root Pada Peta Kendali Modified Exponentially Weighted Moving Average Untuk Data Berdistribusi Poisson = Effectiveness Analysis of Improved Square Root on Modified Exponentially Weighted Moving Average Control Chart for Poisson-Distributed Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  NURDIN, AFIFAH MUTIAH  (2025) PEMODELAN IMPROVED GEOGRAPHICALLY AND TEMPORALLY WEIGHTED RIDGE REGRESSION (Studi Kasus: Tingkat Pengangguran Terbuka di Sulawesi Selatan) = MODELING OF IMPROVED GEOGRAPHICALLY AND TEMPORALLY WEIGHTED RIDGE REGRESSION (Case Study: Open Unemployment Rate in South Sulawesi).  Skripsi thesis, Universitas Hasanuddin.   
+
+  NURHIDAYAH, NURHIDAYAH  (2025) ANALISIS RESIDUAL AUTOREGRESSIVE CONDITIONAL HETEROSCEDASTICITY PADA PEMODELAN GENERALIZED SPACE TIME AUTOREGRESSIVE MENGGUNAKAN BOBOT INVERS JARAK (Studi Kasus: Peramalan Inflasi Lima Kota di Sulawesi Selatan) = ANALYSIS OF AUTOREGRESSIVE CONDITIONAL HETEROSCEDASTICITY RESIDUALS IN THE GENERALIZED SPACE TIME AUTOREGRESSIVE MODEL USING INVERSE DISTANCE WEIGHTS (Case Study: Inflation Forecasting in Five Cities of South Sulawesi).  Thesis thesis, Universitas Hasanuddin.   
+
+  OCTAVIA, DHITA HARTANTI  (2025) Pemodelan Multi-Scale Geographically and Temporally Weighted Regression pada Kasus Demam Berdarah di Sulawesi Selatan = Multi-Scale Geographically and Temporally Weighted Regression Modeling on Dengue Fever Cases in South Sulawesi.  Thesis thesis, Universitas Hasanuddin.   
+
+  PABUNTA, AVALON YUDEA  (2025) Perbandingan Akurasi Peramalan Metode Fuzzy Time Series Markov Chain dan Chen-Hsu pada Data Kunjungan Wisatawan Mancanegara di Indonesia = Comparison of the Forecasting Accuracy of the Fuzzy Time Series Markov Chain and Chen-Hsu Methods on Data on Foreign Tourist Visits in Indonesia.  Thesis thesis, Universitas Hasanuddin.   
+
+  PARAPA, ANNI IVONI  (2025) PEMODELAN RIDGE REGRESSION PADA DATA TIME SERIES DENGAN KOREKSI AUTOKORELASI PRAIS WINSTEN (Studi Kasus: Nilai Tukar Rupiah Terhadap Dolar Amerika Serikat) = Ridge Regression Modeling on Time Series Data with Prais Winsten Autocorrelation Correction (Case Study: Rupiah Exchange Rate Against the United States Dollar).  Skripsi thesis, Universitas Hasanuddin.   
+
+  PERMATASARI, INTAN  (2025) IMPLEMENTASI CLASSIFICATION AND REGRESSION TREE DENGAN RANDOM OVERSAMPLING DAN RANDOM UNDERSAMPLING PADA DATA TIDAK SEIMBANG (Studi Kasus : STATUS KREDIT NASABAH BANK ) = IMPLEMENTATION OF CLASSIFICATION AND REGRESSION TREE WITH RANDOM OVERSAMPLING AND RANDOM UNDERSAMPLING ON UNBALANCED DATA (Case Study: BANK CUSTOMER CREDIT STATUS).  Skripsi thesis, Universitas Hasanuddin.   
+
+  RABBANI, ANDI MUHAMMAD ZAKI HAUZAN  (2025) Pemodelan Generalized Fused Least Absolute Shrinkage and Selection Operator Regression Pada Indeks Pembangunan Manusia = Generalized Fused Least Absolute Shrinkage and Selection Operator Regression Modeling of the Human Development Index.  Skripsi thesis, Universitas Hasanuddin.   
+
+  RAFIQ, AMALIAH  (2025) Estimasi Interval Kepercayaan Model Regresi Kuantil Least Absolute Shringkage and Selection Operator (Studi kasus: Data Tuberkulosis di Indonesia) = Estimation Of Confidence Intervals Quantile Regression Using The Least Absolute Shrinkage and Selection Operator (Case Study: Tuberculosis Data In Indonesia).  Thesis thesis, Universitas Hasanuddin.   
+
+  RAHMAH, SYIFA UR  (2025) Perbandingan Hasil Peramalan Metode Average Based Time Invariant Fuzzy Time Series dengan Fuzzy Time Series Cheng pada Peramalan Inflasi di Indonesia = Comparison of Forecasting Results of Average Based Time Invariant Fuzzy Time Series Method with Fuzzy Time Series Cheng on Inflation Forecasting in Indonesia.  Skripsi thesis, Universitas Hasanuddin.   
+
+  RAMADANA, ARHAN  (2025) PERBANDINGAN GAME THEORY ESTIMATION DENGAN MAXIMUM LIKELIHOOD ESTIMATION PADA PARAMETER DISTRIBUSI BINOMIAL = A Comparison Between Game Theory Estimation and Maximum Likelihood Estimation for Binomial Distribution Parameters.  Skripsi thesis, Universitas Hasanuddin.   
+
+  REZKY, MUHAMMAD  (2025) Penerapan Accept-Reject Generation Algorithm Untuk Membangkitkan Distribusi Permainan “Das Statische Spiel” = Application of the Accept-Reject Generation Algorithm to Simulate the Distribution of the Game "Das Statische Spiel".  Skripsi thesis, Universitas Hasanuddin.   
+
+  ROSADI, FADHILLAH ANNISA  (2025) Pemodelan Geographically Weighted Panel Regression dengan Random Effect Menggunakan Quasi Demeaning (Studi Kasus: Angka Harapan Hidup di Indonesia Tahun 2018-2022) = Geographically Wighted Panel Regression with Random Effect Using Quasi Demeaning (Case Study: Life Expectancy in Indonesia 2018-2022).  Skripsi thesis, Universitas Hasanuddin.   
+
+  Raihan, Muhammad  (2025) PENERAPAN REGRESI LOGISTIK BINER MENGGUNAKAN PENALTI LASSO DENGAN ESTIMATOR SPLINE TRUNCATED (Studi Kasus: Data Status Gizi Balita di Kabupaten Gowa Tahun 2023) = Application of Binary Logistic Regression Using Lasso Penalty with Truncated Spline Estimator (Case Study: Data on Nutritional Status of Toddlers in Gowa Regency in 2023).  Skripsi thesis, Universitas Hasanuddin.   
+
+  SAMRINA, SAMRINA  (2025) PERBANDINGAN PETA KENDALI MODIFIED EXPONENTIALLY WEIGHTED MOVING AVERAGE PATEL DAN KHAN DALAM MENDETEKSI PERGESERAN RATA-RATA PROSES PRODUKSI (STUDI KASUS: USAHA BOLU CUKKE SUNRISE-Q) = COMPARISON OF MODIFIED EXPONENTIALLY WEIGHTED MOVING AVERAGE CONTROL CHARTS BY PATEL DAN KHAN IN DETECTING PRODUCTION PROCESS MEAN SHIFTS (CASE STUDY: BOLU CUKKE SUNRISE-Q BUSINESS).  Skripsi thesis, Universitas Hasanuddin.   
+
+  SETIA, NANANG  (2025) PEMODELAN ANGKA KEMATIAN IBU MELALUI MULTIVARIATE ADAPTIVE GENERALIZED POISSON REGRESSION SPLINE DENGAN MAXIMUM LIKELIHOOD TERBOBOTI = MODELING MATERNAL MORTALITY USING MULTIVARIATE ADAPTIVE GENERALIZED POISSON REGRESSION SPLINE WITH WEIGHTED MAXIMUM LIKELIHOOD.  Thesis thesis, UNIVERSITAS HASANUDDIN MAKASSAR.   
+
+  SOMALINGGI, MEGA KARTIKA  (2025) Pemodelan Generalized Space Time Autoregressive Seasonal Untuk Pendugaan Curah Hujan Di Makassar Tahun 2018-2023 = Generalized Space Time Autoregressive Seasonal Modeling for Rainfall Estimation in Makassar 2018-2023.  Skripsi thesis, Universitas Hasanuddin.   
+
+  SULISTYO, SHEILLA AMANDA  (2025) Analisis Data Spasial Menggunakan Generalized LASSO Regression dengan Pendekatan K-Nearest Neighbors Pada Persentase Penduduk Miskin = Spatial Data Analysis Using Generalized LASSO Regression with a K-Nearest Neighbors Approach on Poverty Rate.  Skripsi thesis, Universitas Hasanuddin.   
+
+  SUMARDI, NUR AZHARI  (2025) Aproksimasi Orde Pertama Expected Length Sebagai Dasar Penentuan Ukuran Sampel Selang Kepercayaan Wilson = First Order Approximation of Expected Length as a Basis for Determining Sample Size of the Wilson Confidence Interval.  Skripsi thesis, Universitas Hasanuddin.   
+
+  SUMARSONO, PUTRI APRILIA  (2025) PENERAPAN FILTER COIFLET PADA METODE MAXIMAL OVERLAP DISCRETE WAVELET TRANSFORM DENGAN ESTIMASI WAVELET THRESHOLDING UNTUK PERAMALAN CURAH HUJAN DI KOTA MAKASSAR = APPLICATION OF COIFLET FILTER IN MAXIMAL OVERLAP DISCRETE WAVELET TRANSFORM METHOD WITH WAVELET THRESHOLDING ESTIMATION FOR RAINFALL FORECASTING IN MAKASSAR CITY.  Thesis thesis, Universitas Hasanuddin.   
+
+  Shabrina, Putri Yasmin Nur  (2025) MODEL ADAPTIVE LEAST ABSOLUTE SHRINKAGE AND SELECTION OPERATION PADA KASUS INDEKS PEMBANGUNAN MANUSIA DI SULAWESI SELATAN TAHUN 2021 = Adaptive Least Absolute Shrinkage and Selection Operation Model in the Case of the Human Development Index in South Sulawesi in 2021.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Syahrul, Khusnul Khatimah  (2025) Pemodelan Robust Jackknife Generalized Liu Regression Dengan MM-Estimator pada Angka Kematian Bayi di Sulawesi Selatan = Pemodelan Robust Jackknife Genealized Liu Regression dengan MM-Estimator Pada Angka Kematian Bayi di Sulawesi Data Angka Selatan.  Skripsi thesis, Universitas Hasanuddin.   
+
+  TAKDIR, AGUNG MUHAMMAD  (2025) Peta Kendali Multivariate Exponentially Weighted Moving Average Berbasis Vector Autoregressive Untuk Monitoring Kualitas Air Pdam Tirta Je’ne’berang = Residual-Based Multivariate Exponentially Weighted Moving Average Control Chart Using Vector Autoregressive Model for Monitoring Water Quality at PDAM Tirta Je’ne’berang.  Thesis thesis, Universitas Hasanuddin.   
+
+  TAUFIK, MUH. IKBAL  (2025) Pemodelan Modified Geographically Weighted Regression dengan Pendekatan Mean-Shift Outlier Model (Studi Kasus: Indeks Pembangunan Manusia) = Modified Geographically Weighted Regression Modeling with Mean-Shift Outlier Model Approach (Case Study: Human Development Index in Indonesia).  Skripsi thesis, Universitas Hasanuddin.   
+
+  TIMOTHY, EDWARD  (2025) Perbandingan Kinerja Peta Kendali U dan Peta Kendali Decision On Belief Menggunakan Metode Average Run Length = A Comparison of the Performance Between the U Control Chart and the Decision On Belief Control Chart Using the Average Run Length Method.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Tampubolon, Anabel Yustiasih  (2025) KETEPATAN KLASIFIKASI ALGORITMA C5.0 MENGGUNAKAN SPLIT ATTRIBUTE GAIN RATIO DAN CHAID (Studi Kasus: Faktor-Faktor Yang Mempengaruhi Stres Mahasiswa di Fakultas MIPA Universitas Hasanuddin) = CLASSIFICATION CLASSIFICATION C5.0 ALGORITHM USING SPLIT ATTRIBUTE GAIN RATIO AND CHAID (Case Study: Factors Affecting Student Stress at the Faculty of Mathematics and Natural Sciences Hasanuddin University).  Skripsi thesis, Universitas Hasanuddin.   
+
+  USMAN, ABRAR  (2025) Penentuan Bagan Kendali Exponentially Weighted Moving Average Berbasis Model Autoregressive Integrated Moving Average Generalized Autoregressive Conditional Heteroskedasticity (Studi Kasus: Nilai Tukar Rupiah Terhadap Dolar As) = Determination of an Exponentially Weighted Moving Average Control Chart Based on an Autoregressive Integrated Moving Average – Generalized Autoregressive Conditional Heteroskedasticity Model (Case Study: Rupiah Exchange Rate Against the US Dollar).  Skripsi thesis, Universitas Hasanuddin.   
+
+  UTARI, AINUN  (2025) Pemodelan Regresi Logistik Biner Efek Campuran pada Data Longitudinal = Binary Logistic Regression Modeling of Mixed Effects on Longitudinal Data.  Thesis thesis, Universitas Hasanuddin.   
+
+  W, MUH. AGUNG  (2025) Analisis Volatilitas Harga Cryptocurrency Bitcoin Menggunakan Metode Asymmetric Power Autoregressive Conditional Heteroscedasticity = Analysis of Bitcoin Cryptocurrency Price Volatility Using Asymmetric Power Autoregressive Conditional Heteroscedasticity Method.  Skripsi thesis, Universitas Hasanuddin.   
+
+  ZAIN, SITI MAYSAROH  (2025) PEMODELAN STATISTICAL DOWNSCALING MENGGUNAKAN REGRESI KUANTIL LASSO DENGAN METODE PENALTY ADAPTIVE UNTUK PENDUGAAN CURAH HUJAN EKSTREM = STATISTICAL DOWNSCALING MODELING USING LASSO QUANTIL REGRESSION WITH ADAPTIVE PENALTY METHOD FOR EXTREME RAINFALL ESTIMATION.  Skripsi thesis, Universitas Hasanuddin.   
+
+  ZALZABILA, JELITA  (2025) Penerapan Generalized Additive Model Spline Dalam Analisis Dinamika Tingkat Pengangguran Terbuka di Provinsi Sulawesi Selatan = Application of Generalized Additive Model Spline in the Analysis of the Dynamics of Open Unemployment Rate in South Sulawesi Province.  Skripsi thesis, Universitas Hasanuddin.   
+
+  Zulfira, Zulfira  (2025) Penerapan Bagan Kendalali Mutivariate Exonentially Weighted Moving Average dengan Pendekatan Copula Pada Data Indeks Kualitas Udara = Aplication of Multivariate Exponentially Weighted Moving Average Control Chart With Copula Approach on Air Quality.  Skripsi thesis, Universitas Hasanuddin.   
+
+  NISA, ZAIMATUN  (2026) Peta Kendali Conway-Maxwell Poisson Homogeneously Weighted Moving Average Pada Data Kegagalan Pengantaran Paket = Conway-Maxwell Poisson Homogeneously Weighted Moving Average Control Chart for Package Delivery Failure Data.  Skripsi thesis, Universitas Hasanuddin.   
+
+  PARAMULYA, ANGEL CITRA  (2026) PERAMALAN DERET WAKTU HARGA EMAS BERDASARKAN MODEL HYBRID AUTOREGRESSIVE FRACTIONALLY INTEGRATED MOVING AVERAGE DAN EXTENDED KALMAN FILTER = Time Series Forecasting of Gold Prices Based on a Hybrid Autoregressive Fractionally Integrated Moving Average and Extended Kalman Filter Model.  Skripsi thesis, Universitas Hasanuddin.   
+
+  RABBANI, ZAID FAIDHU  (2026) Pemodelan Regresi Spline pada Principal Component Analysis menggunakan Robust S-Estimator (Studi Kasus: Angka Kematian Ibu di Provinsi Sulawesi Selatan) = Regression Spline Modelling on Principal Component Analysis Using Robust S-Estimator (Case Study: Maternal Mortality Rate in South Sulawesi Province).  Skripsi thesis, Universitas Hasanuddin.   
+
+  SYAHRATUNNISA, DINDA SYAFIRA  (2026) PERAMALAN HARGA EMAS BERBASIS MODEL HYBRID AUTOREGRESSIVE FRACTIONAL INTEGRATED MOVING AVERAGE – FUZZY TIME SERIES SINGH = Forecasting Gold Prices Based on the Hybrid Autoregressive Fractionally Integrated Moving Average – Fuzzy Time Series Singh Model.  Skripsi thesis, Universitas Hasanuddin.   
