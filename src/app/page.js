@@ -4,6 +4,8 @@ import Chatbot from '@/components/Chatbot';
 
 const prisma = new PrismaClient();
 
+export const dynamic = 'force-dynamic';
+
 // Fungsi untuk mengambil data dari TiDB
 async function getTheses() {
   const theses = await prisma.thesis.findMany({
