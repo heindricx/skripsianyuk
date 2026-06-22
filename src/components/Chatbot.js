@@ -42,15 +42,30 @@ export default function Chatbot({ thesesContext }) {
         }),
       });
 
-      const data = await response.json();
-      if (data.response) {
-        setMessages((prev) => [...prev, { role: 'assistant', content: data.response }]);
-      } else {
-        setMessages((prev) => [...prev, { role: 'assistant', content: 'Maaf, terjadi kesalahan.' }]);
+      if (!response.ok) {
+        throw new Error('Network error');
+      }
+
+      setIsLoading(false); // Stop typing indicator because stream is starting
+      setMessages((prev) => [...prev, { role: 'assistant', content: '' }]);
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let assistantMsg = '';
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        assistantMsg += chunk;
+        setMessages((prev) => {
+          const newMessages = [...prev];
+          newMessages[newMessages.length - 1] = { role: 'assistant', content: assistantMsg };
+          return newMessages;
+        });
       }
     } catch (error) {
-      setMessages((prev) => [...prev, { role: 'assistant', content: 'Maaf, koneksi gagal.' }]);
-    } finally {
+      setMessages((prev) => [...prev, { role: 'assistant', content: 'Maaf, koneksi gagal atau terjadi kesalahan.' }]);
       setIsLoading(false);
     }
   };
