@@ -24,7 +24,10 @@ export default async function Home() {
           <h1>SkripsianYuk</h1>
           <p>Repositori Skripsi & Tugas Akhir Terpadu</p>
         </div>
-        <div>
+        <div style={{ display: 'flex', gap: '1rem' }}>
+          <Link href="/videos">
+            <button className="btn-primary" style={{ background: '#2563eb' }}>Galeri Video</button>
+          </Link>
           <Link href="/admin">
             <button className="btn-primary" style={{ background: '#475569' }}>Panel Admin</button>
           </Link>

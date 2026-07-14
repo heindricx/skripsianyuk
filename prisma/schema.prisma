@@ -17,3 +17,17 @@ model Thesis {
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
 }
+
+model YoutubeVideo {
+  id              String   @id @db.VarChar(50) // Menggunakan ID asli dari Youtube (contoh: dQw4w9WgXcQ)
+  title           String   @db.Text
+  thumbnail       String?  @db.Text
+  channel         String   @db.VarChar(255)
+  view_count      Int      @default(0)
+  like_count      Int      @default(0)
+  upload_date     String?  @db.VarChar(20)
+  duration_string String?  @db.VarChar(20)
+  webpage_url     String   @db.Text
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

@@ -63,3 +63,40 @@ export async function addThesis(formData) {
     return { success: false, error: 'Gagal menambahkan data ke database.' };
   }
 }
+
+export async function addYoutubeVideo(formData) {
+  const token = (await cookies()).get('admin_token');
+  if (!token || token.value !== 'authenticated') {
+    return { success: false, error: 'Tidak ada akses.' };
+  }
+
+  const id = formData.get('id');
+  const title = formData.get('title');
+  const channel = formData.get('channel') || 'Unknown Channel';
+  const webpage_url = formData.get('webpage_url') || `https://www.youtube.com/watch?v=${id}`;
+  const thumbnail = formData.get('thumbnail') || `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+
+  if (!id || !title) {
+    return { success: false, error: 'ID Video dan Judul wajib diisi!' };
+  }
+
+  try {
+    await prisma.youtubeVideo.create({
+      data: {
+        id,
+        title,
+        channel,
+        webpage_url,
+        thumbnail,
+        view_count: 0,
+        like_count: 0
+      }
+    });
+    
+    revalidatePath('/videos');
+    return { success: true };
+  } catch (error) {
+    console.error('Insert error:', error);
+    return { success: false, error: 'Gagal menambahkan video. Mungkin ID sudah ada di database.' };
+  }
+}
