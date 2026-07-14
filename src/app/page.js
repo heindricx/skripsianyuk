@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import ThesisTable from '@/components/ThesisTable';
-import Chatbot from '@/components/Chatbot';
+import Link from 'next/link';
 
 const prisma = new PrismaClient();
 
@@ -19,17 +19,34 @@ export default async function Home() {
 
   return (
     <main className="container">
-      <div className="header animate-fade-in">
-        <h1>SkripsianYuk</h1>
-        <p>Temukan Ide Skripsi Anda dan Diskusikan dengan AI</p>
+      <div className="header animate-fade-in" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ textAlign: 'left' }}>
+          <h1>SkripsianYuk</h1>
+          <p>Repositori Skripsi & Tugas Akhir Terpadu</p>
+        </div>
+        <div>
+          <Link href="/admin">
+            <button className="btn-primary" style={{ background: '#475569' }}>Panel Admin</button>
+          </Link>
+        </div>
       </div>
       
-      <div className="main-grid">
-        {/* Kolom Kiri: Tabel Data */}
+      <div className="animate-fade-in" style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem' }}>
+        <div className="glass-card" style={{ padding: '1.5rem', flex: 1 }}>
+          <h3 style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Total Repositori</h3>
+          <p style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--accent-primary)' }}>{theses.length}</p>
+        </div>
+        <div className="glass-card" style={{ padding: '1.5rem', flex: 1 }}>
+          <h3 style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Terbaru</h3>
+          <p style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--accent-primary)' }}>
+            {theses.length > 0 ? theses[0].year : '-'}
+          </p>
+        </div>
+      </div>
+      
+      <div style={{ paddingBottom: '3rem' }}>
+        {/* Tabel Data Full Width */}
         <ThesisTable initialData={theses} />
-        
-        {/* Kolom Kanan: Chatbot AI */}
-        <Chatbot thesesContext={theses} />
       </div>
     </main>
   );

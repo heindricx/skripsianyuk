@@ -1,0 +1,65 @@
+'use server';
+
+import { cookies } from 'next/headers';
+import { PrismaClient } from '@prisma/client';
+import { revalidatePath } from 'next/cache';
+
+const prisma = new PrismaClient();
+
+export async function loginAdmin(formData) {
+  const password = formData.get('password');
+  const adminPassword = process.env.ADMIN_PASSWORD || 'rahasia123'; // fallback if not set
+
+  if (password === adminPassword) {
+    (await cookies()).set('admin_token', 'authenticated', {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 60 * 60 * 24, // 1 day
+      path: '/',
+    });
+    return { success: true };
+  } else {
+    return { success: false, error: 'Password salah!' };
+  }
+}
+
+export async function logoutAdmin() {
+  (await cookies()).delete('admin_token');
+  revalidatePath('/admin');
+}
+
+export async function addThesis(formData) {
+  const token = (await cookies()).get('admin_token');
+  if (!token || token.value !== 'authenticated') {
+    return { success: false, error: 'Tidak ada akses.' };
+  }
+
+  const author = formData.get('author');
+  const title = formData.get('title');
+  const year = parseInt(formData.get('year'));
+  const type = formData.get('type') || 'Skripsi';
+  const university = formData.get('university') || 'Universitas Hasanuddin';
+
+  if (!author || !title || !year) {
+    return { success: false, error: 'Semua kolom wajib diisi!' };
+  }
+
+  try {
+    await prisma.thesis.create({
+      data: {
+        author,
+        title,
+        year,
+        type,
+        university
+      }
+    });
+    
+    // Refresh the home page and admin page to show new data
+    revalidatePath('/');
+    return { success: true };
+  } catch (error) {
+    console.error('Insert error:', error);
+    return { success: false, error: 'Gagal menambahkan data ke database.' };
+  }
+}
