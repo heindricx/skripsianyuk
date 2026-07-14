@@ -1,11 +1,14 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 
 export default function UnifiedGallery({ initialData }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [viewMode, setViewMode] = useState('grid'); // 'grid' atau 'list'
   const [sortBy, setSortBy] = useState('newest'); // 'newest', 'oldest', 'most_viewed'
   
+  // Year Filter State
+  const [selectedYear, setSelectedYear] = useState('all');
+
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
@@ -13,10 +16,25 @@ export default function UnifiedGallery({ initialData }) {
   // Accordion State
   const [expandedId, setExpandedId] = useState(null);
 
-  // Filter data berdasarkan pencarian
+  // Helper for year
+  const getYear = (dateStr) => {
+    return (dateStr && dateStr.length >= 4) ? dateStr.substring(0, 4) : 'Unknown';
+  };
+
+  // Get unique years for the filter dropdown
+  const availableYears = useMemo(() => {
+    const years = initialData.map(v => getYear(v.upload_date)).filter(y => y !== 'Unknown');
+    const uniqueYears = [...new Set(years)];
+    return uniqueYears.sort((a, b) => b - a); // descending
+  }, [initialData]);
+
+  // Filter data berdasarkan pencarian dan tahun
   let filteredData = initialData.filter((video) => {
-    return video.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-           video.channel.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch = video.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                          video.channel.toLowerCase().includes(searchTerm.toLowerCase());
+    const videoYear = getYear(video.upload_date);
+    const matchesYear = selectedYear === 'all' || videoYear === selectedYear;
+    return matchesSearch && matchesYear;
   });
 
   // Sorting
@@ -68,18 +86,31 @@ export default function UnifiedGallery({ initialData }) {
       {/* Toolbar / Search & Filters */}
       <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
         
-        <div style={{ display: 'flex', gap: '1rem', flex: 2, minWidth: '300px' }}>
+        <div style={{ display: 'flex', gap: '1rem', flex: 2, minWidth: '300px', flexWrap: 'wrap' }}>
           <input 
             type="text" 
             placeholder="Cari judul skripsi atau nama presenter..." 
             className="input-field"
             value={searchTerm}
+            style={{ flex: 1, minWidth: '200px' }}
             onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
           />
           
           <select 
             className="input-field" 
-            style={{ maxWidth: '180px' }}
+            style={{ width: '130px' }}
+            value={selectedYear}
+            onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
+          >
+            <option value="all">Semua Tahun</option>
+            {availableYears.map(year => (
+              <option key={year} value={year}>{year}</option>
+            ))}
+          </select>
+
+          <select 
+            className="input-field" 
+            style={{ width: '180px' }}
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
           >
@@ -188,7 +219,12 @@ export default function UnifiedGallery({ initialData }) {
                   {/* Dropdown Accordion for Grid */}
                   {expandedId === video.id && (
                     <div className="animate-fade-in" style={{ marginTop: '1rem', padding: '1.5rem', background: '#f8fafc', border: '1px solid var(--accent-primary)', borderRadius: '12px' }}>
-                      <h4 style={{ marginBottom: '1rem', fontSize: '1.1rem' }}>Tonton Presentasi</h4>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                        <h4 style={{ fontSize: '1.1rem', margin: 0 }}>Tonton Presentasi</h4>
+                        <span style={{ background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                          Tahun {getYear(video.upload_date)}
+                        </span>
+                      </div>
                       <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', marginBottom: '1rem' }}>
                         <iframe 
                           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
@@ -262,8 +298,11 @@ export default function UnifiedGallery({ initialData }) {
                                 </div>
                               </div>
                               <div style={{ flex: 1 }}>
-                                <h3 style={{ marginBottom: '1rem' }}>{video.title}</h3>
-                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>Oleh: {video.channel}</p>
+                                <div style={{ display: 'inline-block', background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '1rem' }}>
+                                  Tahun {getYear(video.upload_date)}
+                                </div>
+                                <h3 style={{ marginBottom: '1rem', fontSize: '1.2rem', lineHeight: '1.4' }}>{video.title}</h3>
+                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '1rem' }}>Oleh: {video.channel}</p>
                                 <a href={video.webpage_url} target="_blank" rel="noopener noreferrer">
                                   <button className="btn-primary" style={{ background: '#ef4444' }}>Tonton Langsung di YouTube</button>
                                 </a>
