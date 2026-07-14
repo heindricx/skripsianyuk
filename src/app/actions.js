@@ -100,3 +100,38 @@ export async function addYoutubeVideo(formData) {
     return { success: false, error: 'Gagal menambahkan video. Mungkin ID sudah ada di database.' };
   }
 }
+
+export async function updateYoutubeVideo(formData) {
+  const token = (await cookies()).get('admin_token');
+  if (!token || token.value !== 'authenticated') {
+    return { success: false, error: 'Tidak ada akses.' };
+  }
+
+  const id = formData.get('id');
+  const title = formData.get('title');
+  const author = formData.get('author') || null;
+  const academic_year = formData.get('academic_year') ? parseInt(formData.get('academic_year')) : null;
+  const thesis_type = formData.get('thesis_type') || null;
+
+  if (!id || !title) {
+    return { success: false, error: 'ID Video dan Judul wajib diisi!' };
+  }
+
+  try {
+    await prisma.youtubeVideo.update({
+      where: { id },
+      data: {
+        title,
+        author,
+        academic_year,
+        thesis_type
+      }
+    });
+    
+    revalidatePath('/');
+    return { success: true };
+  } catch (error) {
+    console.error('Update error:', error);
+    return { success: false, error: 'Gagal mengupdate data. Pastikan ID video benar.' };
+  }
+}

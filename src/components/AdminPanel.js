@@ -1,14 +1,15 @@
 'use client';
 import { useState, useRef } from 'react';
-import { addThesis, addYoutubeVideo, logoutAdmin } from '@/app/actions';
+import { addThesis, addYoutubeVideo, updateYoutubeVideo, logoutAdmin } from '@/app/actions';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default function AdminPanel() {
+export default function AdminPanel({ initialTheses = [] }) {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
-  const [activeTab, setActiveTab] = useState('thesis'); // 'thesis' or 'video'
+  const [activeTab, setActiveTab] = useState('manage'); // 'thesis', 'video', 'manage'
+  const [editingThesis, setEditingThesis] = useState(null);
   
   const formRef = useRef(null);
   const router = useRouter();
@@ -54,13 +55,32 @@ export default function AdminPanel() {
     setLoading(false);
   };
 
+  const handleEditSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setSuccess('');
+    
+    const formData = new FormData(e.target);
+    const result = await updateYoutubeVideo(formData);
+    
+    if (result.success) {
+      setSuccess('Data berhasil diperbarui!');
+      setEditingThesis(null);
+      router.refresh(); // Refresh data dari server
+    } else {
+      setError(result.error);
+    }
+    setLoading(false);
+  };
+
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h3 style={{ color: 'var(--text-primary)' }}>Tambah Data Baru</h3>
+        <h3 style={{ color: 'var(--text-primary)' }}>Panel Manajemen</h3>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <Link href="/">
-            <button className="btn-primary" style={{ background: '#f1f5f9', color: '#0f172a', border: '1px solid #cbd5e1' }}>Kembali</button>
+            <button className="btn-primary" style={{ background: '#f1f5f9', color: '#0f172a', border: '1px solid #cbd5e1' }}>Ke Beranda</button>
           </Link>
           <button onClick={handleLogout} className="btn-primary" style={{ background: '#ef4444' }}>Keluar</button>
         </div>
@@ -69,7 +89,21 @@ export default function AdminPanel() {
       {/* Tabs */}
       <div style={{ display: 'flex', gap: '1rem', borderBottom: '1px solid var(--card-border)', marginBottom: '1.5rem' }}>
         <button 
-          onClick={() => { setActiveTab('thesis'); setError(''); setSuccess(''); }}
+          onClick={() => { setActiveTab('manage'); setEditingThesis(null); setError(''); setSuccess(''); }}
+          style={{
+            background: 'transparent',
+            border: 'none',
+            borderBottom: activeTab === 'manage' ? '2px solid var(--accent-primary)' : '2px solid transparent',
+            padding: '0.5rem 1rem',
+            cursor: 'pointer',
+            fontWeight: activeTab === 'manage' ? '600' : '400',
+            color: activeTab === 'manage' ? 'var(--accent-primary)' : 'var(--text-secondary)'
+          }}
+        >
+          📋 Kelola Data
+        </button>
+        <button 
+          onClick={() => { setActiveTab('thesis'); setEditingThesis(null); setError(''); setSuccess(''); }}
           style={{
             background: 'transparent',
             border: 'none',
@@ -80,10 +114,10 @@ export default function AdminPanel() {
             color: activeTab === 'thesis' ? 'var(--accent-primary)' : 'var(--text-secondary)'
           }}
         >
-          📄 Data Skripsi
+          📄 Tambah Skripsi
         </button>
         <button 
-          onClick={() => { setActiveTab('video'); setError(''); setSuccess(''); }}
+          onClick={() => { setActiveTab('video'); setEditingThesis(null); setError(''); setSuccess(''); }}
           style={{
             background: 'transparent',
             border: 'none',
@@ -94,13 +128,101 @@ export default function AdminPanel() {
             color: activeTab === 'video' ? 'var(--accent-primary)' : 'var(--text-secondary)'
           }}
         >
-          ▶️ Video YouTube
+          ▶️ Tambah Video
         </button>
       </div>
       
       {error && <div className="error-msg">{error}</div>}
       {success && <div style={{ background: '#ecfdf5', color: '#059669', padding: '0.75rem', borderRadius: '6px', border: '1px solid #10b981', marginBottom: '1rem', fontSize: '0.9rem' }}>{success}</div>}
       
+      {/* MANAGE TAB */}
+      {activeTab === 'manage' && !editingThesis && (
+        <div>
+          <p style={{ marginBottom: '1rem', color: 'var(--text-secondary)' }}>Klik tombol Edit pada baris skripsi yang ingin Anda ubah datanya (Nama Penulis, Tahun Lulus, dll).</p>
+          <div className="table-container" style={{ maxHeight: '500px', overflowY: 'auto' }}>
+            <table style={{ width: '100%', fontSize: '0.9rem' }}>
+              <thead style={{ position: 'sticky', top: 0, zIndex: 10 }}>
+                <tr>
+                  <th width="40%">Judul</th>
+                  <th width="20%">Penulis</th>
+                  <th width="10%">Tahun</th>
+                  <th width="15%">Jenis</th>
+                  <th width="15%">Aksi</th>
+                </tr>
+              </thead>
+              <tbody>
+                {initialTheses.map(thesis => (
+                  <tr key={thesis.id}>
+                    <td>
+                      <div style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                        {thesis.title}
+                      </div>
+                    </td>
+                    <td>{thesis.author || '-'}</td>
+                    <td>{thesis.academic_year || '-'}</td>
+                    <td>{thesis.thesis_type || '-'}</td>
+                    <td>
+                      <button 
+                        onClick={() => setEditingThesis(thesis)}
+                        style={{ padding: '0.25rem 0.75rem', background: '#3b82f6', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem' }}
+                      >
+                        ✏️ Edit
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {/* EDIT FORM (Muncul ketika klik Edit) */}
+      {editingThesis && (
+        <div>
+          <button 
+            onClick={() => setEditingThesis(null)}
+            style={{ marginBottom: '1.5rem', background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+          >
+            ← Kembali ke Daftar
+          </button>
+          <h4 style={{ marginBottom: '1.5rem' }}>Edit Data: {editingThesis.id}</h4>
+          <form onSubmit={handleEditSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+            <input type="hidden" name="id" value={editingThesis.id} />
+            
+            <div>
+              <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Judul Lengkap</label>
+              <textarea name="title" defaultValue={editingThesis.title} className="input-field" rows="3" required style={{ resize: 'vertical' }}></textarea>
+            </div>
+
+            <div style={{ display: 'flex', gap: '1rem' }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Penulis (Author)</label>
+                <input type="text" name="author" defaultValue={editingThesis.author || ''} placeholder="Contoh: Hendrikus Aldi" className="input-field" />
+              </div>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Tahun Akademik</label>
+                <input type="number" name="academic_year" defaultValue={editingThesis.academic_year || ''} placeholder="Contoh: 2024" className="input-field" />
+              </div>
+            </div>
+
+            <div>
+              <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Jenis Karya Tulis</label>
+              <select name="thesis_type" defaultValue={editingThesis.thesis_type || ''} className="input-field">
+                <option value="">(Kosongkan jika tidak diketahui)</option>
+                <option value="Skripsi">Skripsi</option>
+                <option value="Tesis">Tesis</option>
+                <option value="Disertasi">Disertasi</option>
+              </select>
+            </div>
+            
+            <button type="submit" className="btn-primary" disabled={loading} style={{ marginTop: '1rem', background: '#10b981' }}>
+              {loading ? 'Menyimpan...' : '💾 Simpan Perubahan'}
+            </button>
+          </form>
+        </div>
+      )}
+
       {/* THESIS FORM */}
       {activeTab === 'thesis' && (
         <form ref={formRef} onSubmit={handleThesisSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>

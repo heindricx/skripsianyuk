@@ -202,11 +202,19 @@ export default function UnifiedGallery({ initialData }) {
 
                     {/* Meta & Title */}
                     <div style={{ padding: '1rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                        {video.thesis_type && (
+                          <span style={{ fontSize: '0.7rem', background: '#e2e8f0', color: '#475569', padding: '2px 6px', borderRadius: '4px', fontWeight: '600' }}>{video.thesis_type}</span>
+                        )}
+                        {video.academic_year && (
+                          <span style={{ fontSize: '0.7rem', background: 'var(--accent-primary)', color: 'white', padding: '2px 6px', borderRadius: '4px', fontWeight: '600' }}>{video.academic_year}</span>
+                        )}
+                      </div>
                       <h4 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '0.5rem', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', lineHeight: '1.4' }}>
                         {video.title}
                       </h4>
-                      <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>
-                        {video.channel}
+                      <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', fontWeight: video.author ? '600' : '400' }}>
+                        {video.author ? `👤 ${video.author}` : video.channel}
                       </p>
                       
                       <div style={{ marginTop: 'auto', display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--text-secondary)', paddingTop: '0.5rem', borderTop: '1px solid var(--card-border)' }}>
@@ -272,11 +280,13 @@ export default function UnifiedGallery({ initialData }) {
                           <div style={{ color: expandedId === video.id ? 'var(--accent-primary)' : 'inherit', fontWeight: '500' }}>
                             {video.title}
                           </div>
-                          <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
-                            ⏱️ {video.duration_string}
+                          <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.25rem', display: 'flex', gap: '0.5rem' }}>
+                            <span>⏱️ {video.duration_string}</span>
+                            {video.thesis_type && <span style={{ background: '#e2e8f0', padding: '0 4px', borderRadius: '4px' }}>{video.thesis_type}</span>}
+                            {video.academic_year && <span style={{ background: 'var(--accent-primary)', color: 'white', padding: '0 4px', borderRadius: '4px' }}>{video.academic_year}</span>}
                           </div>
                         </td>
-                        <td>{video.channel}</td>
+                        <td style={{ fontWeight: video.author ? '600' : '400' }}>{video.author || video.channel}</td>
                         <td>{formatNumber(video.view_count)}</td>
                         <td>{formatDate(video.upload_date)}</td>
                       </tr>
@@ -298,11 +308,24 @@ export default function UnifiedGallery({ initialData }) {
                                 </div>
                               </div>
                               <div style={{ flex: 1 }}>
-                                <div style={{ display: 'inline-block', background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '1rem' }}>
-                                  Tahun {getYear(video.upload_date)}
+                                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+                                  <div style={{ display: 'inline-block', background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                                    Tahun {getYear(video.upload_date)}
+                                  </div>
+                                  {video.academic_year && (
+                                    <div style={{ display: 'inline-block', background: '#3b82f6', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                                      Lulusan {video.academic_year}
+                                    </div>
+                                  )}
+                                  {video.thesis_type && (
+                                    <div style={{ display: 'inline-block', background: '#e2e8f0', color: '#475569', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                                      {video.thesis_type}
+                                    </div>
+                                  )}
                                 </div>
                                 <h3 style={{ marginBottom: '1rem', fontSize: '1.2rem', lineHeight: '1.4' }}>{video.title}</h3>
-                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '1rem' }}>Oleh: {video.channel}</p>
+                                {video.author && <p style={{ color: 'var(--text-primary)', marginBottom: '0.5rem', fontSize: '1.1rem', fontWeight: '600' }}>👤 Penulis: {video.author}</p>}
+                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '1rem' }}>📺 Channel: {video.channel}</p>
                                 <a href={video.webpage_url} target="_blank" rel="noopener noreferrer">
                                   <button className="btn-primary" style={{ background: '#ef4444' }}>Tonton Langsung di YouTube</button>
                                 </a>

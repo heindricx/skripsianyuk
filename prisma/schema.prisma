@@ -28,6 +28,9 @@ model YoutubeVideo {
   upload_date     String?  @db.VarChar(20)
   duration_string String?  @db.VarChar(20)
   webpage_url     String   @db.Text
+  author          String?  @db.VarChar(255)
+  academic_year   Int?
+  thesis_type     String?  @db.VarChar(100)
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 }
