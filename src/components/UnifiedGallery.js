@@ -5,7 +5,6 @@ import { Search, LayoutGrid, List, User, IdCard, GraduationCap, Calendar, PlaySq
 export default function UnifiedGallery({ initialData }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [viewMode, setViewMode] = useState('grid'); // 'grid' atau 'list'
-  const [sortBy, setSortBy] = useState('newest'); // 'newest', 'oldest', 'most_viewed'
   
   // Year & Angkatan Filter State
   const [selectedYear, setSelectedYear] = useState('all');
@@ -59,16 +58,9 @@ export default function UnifiedGallery({ initialData }) {
     return matchesSearch && matchesYear && matchesAngkatan;
   });
 
-  // Sorting
+  // Default sorting (Selalu berdasarkan tahun akademik terbaru)
   filteredData = filteredData.sort((a, b) => {
-    if (sortBy === 'newest') {
-      return (b.academic_year || 0) - (a.academic_year || 0);
-    } else if (sortBy === 'oldest') {
-      return (a.academic_year || 0) - (b.academic_year || 0);
-    } else if (sortBy === 'most_viewed') {
-      return b.view_count - a.view_count;
-    }
-    return 0;
+    return (b.academic_year || 0) - (a.academic_year || 0);
   });
 
   // Pagination Logic
@@ -136,21 +128,6 @@ export default function UnifiedGallery({ initialData }) {
               {availableAngkatan.map(angkatan => (
                 <option key={angkatan} value={angkatan}>Angkatan {angkatan}</option>
               ))}
-            </select>
-          </div>
-
-          {/* Sorting */}
-          <div style={{ position: 'relative', width: '180px' }}>
-            <Filter size={16} style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
-            <select 
-              className="input-field" 
-              style={{ width: '100%', paddingLeft: '32px' }}
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-            >
-              <option value="newest">Terbaru (Tahun Publish)</option>
-              <option value="oldest">Terlama (Tahun Publish)</option>
-              <option value="most_viewed">Paling Banyak Ditonton</option>
             </select>
           </div>
 
