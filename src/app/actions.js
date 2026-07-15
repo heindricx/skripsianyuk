@@ -137,3 +137,28 @@ export async function updateYoutubeVideo(formData) {
     return { success: false, error: 'Gagal mengupdate data. Pastikan ID video benar.' };
   }
 }
+
+export async function deleteYoutubeVideo(formData) {
+  const token = (await cookies()).get('admin_token');
+  if (!token || token.value !== 'authenticated') {
+    return { success: false, error: 'Tidak ada akses.' };
+  }
+
+  const id = formData.get('id');
+
+  if (!id) {
+    return { success: false, error: 'ID Video wajib diisi untuk dihapus!' };
+  }
+
+  try {
+    await prisma.youtubeVideo.delete({
+      where: { id }
+    });
+    
+    revalidatePath('/');
+    return { success: true };
+  } catch (error) {
+    console.error('Delete error:', error);
+    return { success: false, error: 'Gagal menghapus data. Video mungkin sudah dihapus.' };
+  }
+}

@@ -1,9 +1,9 @@
 'use client';
 import { useState, useRef } from 'react';
-import { addThesis, addYoutubeVideo, updateYoutubeVideo, logoutAdmin } from '@/app/actions';
+import { addThesis, addYoutubeVideo, updateYoutubeVideo, deleteYoutubeVideo, logoutAdmin } from '@/app/actions';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Database, FileText, Video, LogOut, ArrowLeft, Edit, Save, CheckCircle, AlertCircle } from 'lucide-react';
+import { Database, FileText, Video, LogOut, ArrowLeft, Edit, Save, CheckCircle, AlertCircle, Trash2 } from 'lucide-react';
 
 export default function AdminPanel({ initialTheses = [] }) {
   const [error, setError] = useState('');
@@ -68,6 +68,26 @@ export default function AdminPanel({ initialTheses = [] }) {
     if (result.success) {
       setSuccess('Data berhasil diperbarui!');
       setEditingThesis(null);
+      router.refresh(); // Refresh data dari server
+    } else {
+      setError(result.error);
+    }
+    setLoading(false);
+  };
+
+  const handleDeleteSubmit = async (id) => {
+    if (!confirm('Apakah Anda yakin ingin menghapus skripsi ini? Tindakan ini tidak dapat dibatalkan.')) return;
+    
+    setLoading(true);
+    setError('');
+    setSuccess('');
+    
+    const formData = new FormData();
+    formData.append('id', id);
+    const result = await deleteYoutubeVideo(formData);
+    
+    if (result.success) {
+      setSuccess('Skripsi berhasil dihapus secara permanen!');
       router.refresh(); // Refresh data dari server
     } else {
       setError(result.error);
@@ -178,12 +198,23 @@ export default function AdminPanel({ initialTheses = [] }) {
                     <td style={{ padding: '1rem', color: 'var(--text-secondary)' }}>{thesis.academic_year || '-'}</td>
                     <td style={{ padding: '1rem', color: 'var(--text-secondary)' }}>{thesis.thesis_type || '-'}</td>
                     <td style={{ padding: '1rem', textAlign: 'center' }}>
-                      <button 
-                        onClick={() => setEditingThesis(thesis)}
-                        style={{ display: 'inline-flex', alignItems: 'center', gap: '0.25rem', padding: '0.4rem 0.75rem', background: '#3b82f6', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '500' }}
-                      >
-                        <Edit size={14} /> Edit
-                      </button>
+                      <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
+                        <button 
+                          onClick={() => setEditingThesis(thesis)}
+                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.25rem', padding: '0.4rem 0.75rem', background: '#3b82f6', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '500' }}
+                          title="Edit"
+                        >
+                          <Edit size={14} />
+                        </button>
+                        <button 
+                          onClick={() => handleDeleteSubmit(thesis.id)}
+                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.25rem', padding: '0.4rem 0.75rem', background: '#ef4444', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '500' }}
+                          title="Hapus"
+                          disabled={loading}
+                        >
+                          <Trash2 size={14} />
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}
