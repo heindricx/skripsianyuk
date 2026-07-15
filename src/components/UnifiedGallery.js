@@ -83,28 +83,28 @@ export default function UnifiedGallery({ initialData }) {
     <div className="glass-card animate-fade-in" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', minHeight: '800px' }}>
       
       {/* Toolbar / Search & Filters */}
-      <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
         
-        <div style={{ display: 'flex', gap: '1rem', flex: 2, minWidth: '300px', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '1rem', flex: '1 1 100%', flexWrap: 'wrap' }}>
           
-          <div style={{ position: 'relative', flex: 1, minWidth: '200px' }}>
-            <Search size={18} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
+          <div style={{ position: 'relative', flex: '1 1 250px' }}>
+            <Search size={18} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
             <input 
               type="text" 
               placeholder="Cari judul, penulis, atau NIM..." 
               className="input-field"
               value={searchTerm}
-              style={{ width: '100%', paddingLeft: '38px' }}
+              style={{ width: '100%', paddingLeft: '44px' }}
               onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
             />
           </div>
           
           {/* Filter Tahun Publish */}
-          <div style={{ position: 'relative', width: '160px' }}>
-            <Calendar size={16} style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
+          <div style={{ position: 'relative', flex: '1 1 140px' }}>
+            <Calendar size={16} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
             <select 
               className="input-field" 
-              style={{ width: '100%', paddingLeft: '32px' }}
+              style={{ width: '100%', paddingLeft: '44px', cursor: 'pointer', appearance: 'none' }}
               value={selectedYear}
               onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
             >
@@ -116,11 +116,11 @@ export default function UnifiedGallery({ initialData }) {
           </div>
 
           {/* Filter Angkatan */}
-          <div style={{ position: 'relative', width: '160px' }}>
-            <GraduationCap size={16} style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
+          <div style={{ position: 'relative', flex: '1 1 140px' }}>
+            <GraduationCap size={16} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
             <select 
               className="input-field" 
-              style={{ width: '100%', paddingLeft: '32px' }}
+              style={{ width: '100%', paddingLeft: '44px', cursor: 'pointer', appearance: 'none' }}
               value={selectedAngkatan}
               onChange={(e) => { setSelectedAngkatan(e.target.value); setCurrentPage(1); }}
             >
@@ -134,7 +134,7 @@ export default function UnifiedGallery({ initialData }) {
         </div>
 
         {/* View Mode Toggles */}
-        <div style={{ display: 'flex', gap: '0.5rem', background: 'var(--card-border)', padding: '0.25rem', borderRadius: '8px' }}>
+        <div style={{ display: 'flex', gap: '0.5rem', background: '#f1f5f9', padding: '0.35rem', borderRadius: '14px', flex: '0 0 auto' }}>
           <button 
             onClick={() => setViewMode('grid')}
             style={{ 
@@ -205,16 +205,16 @@ export default function UnifiedGallery({ initialData }) {
                   >
                     <div style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
                       
-                      {/* Badges */}
-                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+                      {/* Badges - Pill Shaped */}
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.25rem', flexWrap: 'wrap' }}>
                         {video.thesis_type && (
-                          <span style={{ fontSize: '0.7rem', background: '#e2e8f0', color: '#475569', padding: '4px 8px', borderRadius: '4px', fontWeight: '600', textTransform: 'uppercase' }}>{video.thesis_type}</span>
+                          <span style={{ fontSize: '0.7rem', background: '#f1f5f9', color: '#475569', padding: '6px 12px', borderRadius: '9999px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{video.thesis_type}</span>
                         )}
                         {video.academic_year && (
-                          <span style={{ fontSize: '0.7rem', background: 'var(--accent-primary)', color: 'white', padding: '4px 8px', borderRadius: '4px', fontWeight: '600' }}>{video.academic_year}</span>
+                          <span style={{ fontSize: '0.7rem', background: 'var(--accent-primary)', color: 'white', padding: '6px 12px', borderRadius: '9999px', fontWeight: '700', letterSpacing: '0.05em' }}>{video.academic_year}</span>
                         )}
                         {getAngkatan(video.nim) && (
-                          <span style={{ fontSize: '0.7rem', background: '#fef08a', color: '#854d0e', padding: '4px 8px', borderRadius: '4px', fontWeight: '600' }}>ANGKATAN {getAngkatan(video.nim)}</span>
+                          <span style={{ fontSize: '0.7rem', background: '#fef08a', color: '#854d0e', padding: '6px 12px', borderRadius: '9999px', fontWeight: '700', letterSpacing: '0.05em' }}>ANGKATAN {getAngkatan(video.nim)}</span>
                         )}
                       </div>
                       
@@ -314,11 +314,11 @@ export default function UnifiedGallery({ initialData }) {
                             </div>
                           )}
                         </td>
-                        <td style={{ padding: '1rem' }}>
-                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
-                            {video.thesis_type && <span style={{ fontSize: '0.75rem', background: '#e2e8f0', color: '#475569', padding: '2px 6px', borderRadius: '4px' }}>{video.thesis_type}</span>}
-                            {video.academic_year && <span style={{ fontSize: '0.75rem', background: 'var(--accent-primary)', color: 'white', padding: '2px 6px', borderRadius: '4px' }}>{video.academic_year}</span>}
-                            {getAngkatan(video.nim) && <span style={{ fontSize: '0.75rem', background: '#fef08a', color: '#854d0e', padding: '2px 6px', borderRadius: '4px' }}>Angkatan {getAngkatan(video.nim)}</span>}
+                        <td style={{ padding: '1.25rem' }}>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                            {video.thesis_type && <span style={{ fontSize: '0.75rem', background: '#f1f5f9', color: '#475569', padding: '4px 10px', borderRadius: '9999px', fontWeight: '600' }}>{video.thesis_type}</span>}
+                            {video.academic_year && <span style={{ fontSize: '0.75rem', background: 'var(--accent-primary)', color: 'white', padding: '4px 10px', borderRadius: '9999px', fontWeight: '600' }}>{video.academic_year}</span>}
+                            {getAngkatan(video.nim) && <span style={{ fontSize: '0.75rem', background: '#fef08a', color: '#854d0e', padding: '4px 10px', borderRadius: '9999px', fontWeight: '600' }}>Angkatan {getAngkatan(video.nim)}</span>}
                           </div>
                         </td>
                       </tr>
@@ -387,16 +387,16 @@ export default function UnifiedGallery({ initialData }) {
 
       {/* Pagination Controls */}
       {totalPages > 1 && (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid var(--card-border)' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid var(--card-border)', flexWrap: 'wrap' }}>
           <button 
             onClick={() => paginate(Math.max(1, currentPage - 1))}
             disabled={currentPage === 1}
-            style={{ padding: '0.5rem 1rem', borderRadius: '6px', background: currentPage === 1 ? '#e2e8f0' : 'var(--accent-primary)', color: currentPage === 1 ? '#94a3b8' : 'white', border: 'none', cursor: currentPage === 1 ? 'not-allowed' : 'pointer' }}
+            style={{ padding: '0.6rem 1rem', borderRadius: '12px', background: currentPage === 1 ? '#f1f5f9' : 'var(--accent-primary)', color: currentPage === 1 ? '#94a3b8' : 'white', border: 'none', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', fontWeight: '600' }}
           >
             Sebelumnya
           </button>
           
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <div style={{ display: 'flex', gap: '0.25rem' }}>
             {[...Array(totalPages)].map((_, i) => {
               const page = i + 1;
               if (page === 1 || page === totalPages || (page >= currentPage - 1 && page <= currentPage + 1)) {
@@ -405,18 +405,19 @@ export default function UnifiedGallery({ initialData }) {
                     key={page} 
                     onClick={() => paginate(page)}
                     style={{ 
-                      width: '36px', height: '36px', borderRadius: '50%', border: 'none',
+                      width: '40px', height: '40px', borderRadius: '10px', border: 'none',
                       background: currentPage === page ? 'var(--accent-primary)' : 'transparent',
                       color: currentPage === page ? 'white' : 'var(--text-secondary)',
-                      fontWeight: currentPage === page ? '700' : '500',
-                      cursor: 'pointer'
+                      fontWeight: currentPage === page ? '700' : '600',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s'
                     }}
                   >
                     {page}
                   </button>
                 );
               } else if (page === currentPage - 2 || page === currentPage + 2) {
-                return <span key={page} style={{ color: 'var(--text-secondary)', alignSelf: 'center' }}>...</span>;
+                return <span key={page} style={{ color: 'var(--text-secondary)', alignSelf: 'center', padding: '0 0.5rem' }}>...</span>;
               }
               return null;
             })}
@@ -425,7 +426,7 @@ export default function UnifiedGallery({ initialData }) {
           <button 
             onClick={() => paginate(Math.min(totalPages, currentPage + 1))}
             disabled={currentPage === totalPages}
-            style={{ padding: '0.5rem 1rem', borderRadius: '6px', background: currentPage === totalPages ? '#e2e8f0' : 'var(--accent-primary)', color: currentPage === totalPages ? '#94a3b8' : 'white', border: 'none', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer' }}
+            style={{ padding: '0.6rem 1rem', borderRadius: '12px', background: currentPage === totalPages ? '#f1f5f9' : 'var(--accent-primary)', color: currentPage === totalPages ? '#94a3b8' : 'white', border: 'none', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', fontWeight: '600' }}
           >
             Selanjutnya
           </button>
