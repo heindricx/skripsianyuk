@@ -201,6 +201,10 @@ export default function AdminPanel({ initialTheses = [] }) {
                 <input type="text" name="author" defaultValue={editingThesis.author || ''} placeholder="Contoh: Hendrikus Aldi" className="input-field" />
               </div>
               <div style={{ flex: 1 }}>
+                <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>NIM</label>
+                <input type="text" name="nim" defaultValue={editingThesis.nim || ''} placeholder="Contoh: H12116507" className="input-field" />
+              </div>
+              <div style={{ flex: 1 }}>
                 <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem', fontWeight: '500' }}>Tahun Akademik</label>
                 <input type="number" name="academic_year" defaultValue={editingThesis.academic_year || ''} placeholder="Contoh: 2024" className="input-field" />
               </div>

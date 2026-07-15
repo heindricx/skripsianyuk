@@ -31,7 +31,9 @@ export default function UnifiedGallery({ initialData }) {
   // Filter data berdasarkan pencarian dan tahun
   let filteredData = initialData.filter((video) => {
     const matchesSearch = video.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          video.channel.toLowerCase().includes(searchTerm.toLowerCase());
+                          video.channel.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          (video.author && video.author.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                          (video.nim && video.nim.toLowerCase().includes(searchTerm.toLowerCase()));
     const videoYear = getYear(video.upload_date);
     const matchesYear = selectedYear === 'all' || videoYear === selectedYear;
     return matchesSearch && matchesYear;
@@ -89,7 +91,7 @@ export default function UnifiedGallery({ initialData }) {
         <div style={{ display: 'flex', gap: '1rem', flex: 2, minWidth: '300px', flexWrap: 'wrap' }}>
           <input 
             type="text" 
-            placeholder="Cari judul skripsi atau nama presenter..." 
+            placeholder="Cari judul, penulis, atau NIM..." 
             className="input-field"
             value={searchTerm}
             style={{ flex: 1, minWidth: '200px' }}
@@ -161,7 +163,7 @@ export default function UnifiedGallery({ initialData }) {
       ) : (
         <div style={{ flex: 1 }}>
           {viewMode === 'grid' ? (
-            /* ================= GRID VIEW ================= */
+            /* ================= GRID VIEW (Teks Saja) ================= */
             <div style={{ 
               display: 'grid', 
               gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', 
@@ -185,55 +187,44 @@ export default function UnifiedGallery({ initialData }) {
                     onMouseEnter={(e) => { if (expandedId !== video.id) e.currentTarget.style.transform = 'translateY(-4px)'; }}
                     onMouseLeave={(e) => { if (expandedId !== video.id) e.currentTarget.style.transform = 'none'; }}
                   >
-                    {/* Thumbnail */}
-                    <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9', backgroundColor: '#e2e8f0' }}>
-                      {video.thumbnail ? (
-                        <img src={video.thumbnail} alt={video.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                      ) : (
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#94a3b8' }}>No Image</div>
-                      )}
-                      
-                      {video.duration_string && (
-                        <div style={{ position: 'absolute', bottom: '8px', right: '8px', background: 'rgba(0,0,0,0.8)', color: 'white', padding: '2px 6px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: '500' }}>
-                          {video.duration_string}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Meta & Title */}
-                    <div style={{ padding: '1rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
-                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                    {/* Meta & Title Only (No Thumbnail in Grid Default View) */}
+                    <div style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
                         {video.thesis_type && (
-                          <span style={{ fontSize: '0.7rem', background: '#e2e8f0', color: '#475569', padding: '2px 6px', borderRadius: '4px', fontWeight: '600' }}>{video.thesis_type}</span>
+                          <span style={{ fontSize: '0.7rem', background: '#e2e8f0', color: '#475569', padding: '4px 8px', borderRadius: '4px', fontWeight: '600', textTransform: 'uppercase' }}>{video.thesis_type}</span>
                         )}
                         {video.academic_year && (
-                          <span style={{ fontSize: '0.7rem', background: 'var(--accent-primary)', color: 'white', padding: '2px 6px', borderRadius: '4px', fontWeight: '600' }}>{video.academic_year}</span>
+                          <span style={{ fontSize: '0.7rem', background: 'var(--accent-primary)', color: 'white', padding: '4px 8px', borderRadius: '4px', fontWeight: '600', textTransform: 'uppercase' }}>Lulusan {video.academic_year}</span>
+                        )}
+                        {video.duration_string && (
+                          <span style={{ fontSize: '0.7rem', background: '#f1f5f9', color: '#64748b', padding: '4px 8px', borderRadius: '4px', fontWeight: '600' }}>⏱️ {video.duration_string}</span>
                         )}
                       </div>
-                      <h4 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '0.5rem', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', lineHeight: '1.4' }}>
+                      <h4 style={{ fontSize: '1.1rem', fontWeight: '700', marginBottom: '0.75rem', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden', lineHeight: '1.5' }}>
                         {video.title}
                       </h4>
-                      <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', fontWeight: video.author ? '600' : '400' }}>
-                        {video.author ? `👤 ${video.author}` : video.channel}
-                      </p>
-                      
-                      <div style={{ marginTop: 'auto', display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--text-secondary)', paddingTop: '0.5rem', borderTop: '1px solid var(--card-border)' }}>
-                        <span>👁️ {formatNumber(video.view_count)} views</span>
-                        <span>{formatDate(video.upload_date)}</span>
+                      <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-primary)', fontWeight: video.author ? '600' : '400' }}>
+                          {video.author ? `👤 ${video.author}` : video.channel}
+                        </p>
+                        {video.nim && (
+                          <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>🆔 {video.nim}</p>
+                        )}
                       </div>
                     </div>
                   </div>
 
-                  {/* Dropdown Accordion for Grid */}
+                  {/* Dropdown Accordion for Grid (Thumbnail/Player ada di sini) */}
                   {expandedId === video.id && (
                     <div className="animate-fade-in" style={{ marginTop: '1rem', padding: '1.5rem', background: '#f8fafc', border: '1px solid var(--accent-primary)', borderRadius: '12px' }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <h4 style={{ fontSize: '1.1rem', margin: 0 }}>Tonton Presentasi</h4>
+                        <h4 style={{ fontSize: '1.1rem', margin: 0 }}>Video Presentasi</h4>
                         <span style={{ background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                          Tahun {getYear(video.upload_date)}
+                          Upload {getYear(video.upload_date)}
                         </span>
                       </div>
-                      <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', marginBottom: '1rem' }}>
+                      {/* Video Player / Thumbnail */}
+                      <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', marginBottom: '1rem', background: '#e2e8f0' }}>
                         <iframe 
                           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                           src={`https://www.youtube.com/embed/${video.id}`} 
@@ -244,7 +235,7 @@ export default function UnifiedGallery({ initialData }) {
                         ></iframe>
                       </div>
                       <a href={video.webpage_url} target="_blank" rel="noopener noreferrer">
-                        <button className="btn-primary" style={{ width: '100%', background: '#ef4444' }}>Tonton Langsung di YouTube</button>
+                        <button className="btn-primary" style={{ width: '100%', background: '#ef4444' }}>Buka di YouTube</button>
                       </a>
                     </div>
                   )}
@@ -252,15 +243,14 @@ export default function UnifiedGallery({ initialData }) {
               ))}
             </div>
           ) : (
-            /* ================= LIST VIEW ================= */
+            /* ================= LIST VIEW (Tanpa Kolom Thumbnail) ================= */
             <div className="table-container">
               <table>
                 <thead style={{ position: 'sticky', top: 0, zIndex: 10 }}>
                   <tr>
-                    <th width="15%">Thumbnail</th>
                     <th width="45%">Judul Skripsi</th>
-                    <th width="20%">Presenter</th>
-                    <th width="10%">Views</th>
+                    <th width="20%">Penulis & NIM</th>
+                    <th width="15%">Info</th>
                     <th width="10%">Tanggal</th>
                   </tr>
                 </thead>
@@ -271,32 +261,39 @@ export default function UnifiedGallery({ initialData }) {
                         onClick={() => handleExpand(video.id)}
                         style={{ cursor: 'pointer', background: expandedId === video.id ? '#f1f5f9' : 'transparent' }}
                       >
-                        <td style={{ padding: '0.5rem 1rem' }}>
-                          <div style={{ width: '120px', aspectRatio: '16/9', borderRadius: '6px', overflow: 'hidden', background: '#e2e8f0' }}>
-                            {video.thumbnail && <img src={video.thumbnail} alt="thumb" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />}
-                          </div>
-                        </td>
-                        <td>
-                          <div style={{ color: expandedId === video.id ? 'var(--accent-primary)' : 'inherit', fontWeight: '500' }}>
+                        <td style={{ padding: '1rem' }}>
+                          <div style={{ color: expandedId === video.id ? 'var(--accent-primary)' : 'inherit', fontWeight: '600', fontSize: '1rem', lineHeight: '1.4' }}>
                             {video.title}
                           </div>
-                          <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.25rem', display: 'flex', gap: '0.5rem' }}>
-                            <span>⏱️ {video.duration_string}</span>
-                            {video.thesis_type && <span style={{ background: '#e2e8f0', padding: '0 4px', borderRadius: '4px' }}>{video.thesis_type}</span>}
-                            {video.academic_year && <span style={{ background: 'var(--accent-primary)', color: 'white', padding: '0 4px', borderRadius: '4px' }}>{video.academic_year}</span>}
+                        </td>
+                        <td style={{ padding: '1rem' }}>
+                          <div style={{ fontWeight: video.author ? '600' : '400', color: 'var(--text-primary)' }}>
+                            {video.author || video.channel}
+                          </div>
+                          {video.nim && (
+                            <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
+                              {video.nim}
+                            </div>
+                          )}
+                        </td>
+                        <td style={{ padding: '1rem' }}>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                            {video.thesis_type && <span style={{ fontSize: '0.75rem', background: '#e2e8f0', color: '#475569', padding: '2px 6px', borderRadius: '4px', width: 'fit-content' }}>{video.thesis_type}</span>}
+                            {video.academic_year && <span style={{ fontSize: '0.75rem', background: 'var(--accent-primary)', color: 'white', padding: '2px 6px', borderRadius: '4px', width: 'fit-content' }}>Lulus {video.academic_year}</span>}
                           </div>
                         </td>
-                        <td style={{ fontWeight: video.author ? '600' : '400' }}>{video.author || video.channel}</td>
-                        <td>{formatNumber(video.view_count)}</td>
-                        <td>{formatDate(video.upload_date)}</td>
+                        <td style={{ padding: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+                          {formatDate(video.upload_date)}
+                        </td>
                       </tr>
-                      {/* Accordion Row for List View */}
+                      {/* Accordion Row for List View (Thumbnail/Player ada di sini) */}
                       {expandedId === video.id && (
                         <tr className="animate-fade-in" style={{ background: '#f8fafc' }}>
-                          <td colSpan="5" style={{ padding: '2rem' }}>
+                          <td colSpan="4" style={{ padding: '2rem' }}>
                             <div style={{ display: 'flex', gap: '2rem', alignItems: 'flex-start' }}>
+                              {/* Video Player / Thumbnail */}
                               <div style={{ flex: 1, maxWidth: '500px' }}>
-                                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', marginBottom: '1rem' }}>
+                                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', marginBottom: '1rem', background: '#e2e8f0' }}>
                                   <iframe 
                                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                                     src={`https://www.youtube.com/embed/${video.id}`} 
@@ -308,24 +305,10 @@ export default function UnifiedGallery({ initialData }) {
                                 </div>
                               </div>
                               <div style={{ flex: 1 }}>
-                                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
-                                  <div style={{ display: 'inline-block', background: 'var(--accent-primary)', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                                    Tahun {getYear(video.upload_date)}
-                                  </div>
-                                  {video.academic_year && (
-                                    <div style={{ display: 'inline-block', background: '#3b82f6', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                                      Lulusan {video.academic_year}
-                                    </div>
-                                  )}
-                                  {video.thesis_type && (
-                                    <div style={{ display: 'inline-block', background: '#e2e8f0', color: '#475569', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                                      {video.thesis_type}
-                                    </div>
-                                  )}
-                                </div>
                                 <h3 style={{ marginBottom: '1rem', fontSize: '1.2rem', lineHeight: '1.4' }}>{video.title}</h3>
                                 {video.author && <p style={{ color: 'var(--text-primary)', marginBottom: '0.5rem', fontSize: '1.1rem', fontWeight: '600' }}>👤 Penulis: {video.author}</p>}
-                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '1rem' }}>📺 Channel: {video.channel}</p>
+                                {video.nim && <p style={{ color: 'var(--text-secondary)', marginBottom: '0.5rem', fontSize: '1rem' }}>🆔 NIM: {video.nim}</p>}
+                                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '0.9rem' }}>📺 Channel: {video.channel}</p>
                                 <a href={video.webpage_url} target="_blank" rel="noopener noreferrer">
                                   <button className="btn-primary" style={{ background: '#ef4444' }}>Tonton Langsung di YouTube</button>
                                 </a>

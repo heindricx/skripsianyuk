@@ -110,6 +110,7 @@ export async function updateYoutubeVideo(formData) {
   const id = formData.get('id');
   const title = formData.get('title');
   const author = formData.get('author') || null;
+  const nim = formData.get('nim') || null;
   const academic_year = formData.get('academic_year') ? parseInt(formData.get('academic_year')) : null;
   const thesis_type = formData.get('thesis_type') || null;
 
@@ -123,6 +124,7 @@ export async function updateYoutubeVideo(formData) {
       data: {
         title,
         author,
+        nim,
         academic_year,
         thesis_type
       }
